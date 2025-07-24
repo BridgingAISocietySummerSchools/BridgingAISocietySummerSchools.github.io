@@ -1,9 +1,7 @@
 ---
 title: "Bridging AI & Society Summer Schools 🌞🤖"
-subtitle: "Collaborative Learning in AI and Machine Learning"
-description: "Resources and hands-on projects for students and educators in Artificial Intelligence, Data Science, and Machine Learning."
-permalink: /
 layout: single
+permalink: /
 classes: wide
 ---
 

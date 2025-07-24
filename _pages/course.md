@@ -1,7 +1,7 @@
 ---
 title: "Course Overview"
-permalink: /course/
 layout: single
+permalink: /course/
 classes: wide
 ---
 
