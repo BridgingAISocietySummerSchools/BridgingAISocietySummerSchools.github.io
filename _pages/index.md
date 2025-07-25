@@ -1,79 +1,97 @@
 ---
-title: "Bridging AI & Society Summer Schools 🌞🤖"
+title: "Bridging AI & Society 🌞🤖"
 subtitle: "Collaborative Learning in AI and Machine Learning"
-description: "Resources and hands-on projects for students and educators in Artificial Intelligence, Data Science, and Machine Learning."
+description: "Teaching formats, resources, and tailored courses that connect machine learning with real-world impact."
 permalink: /
 layout: single
 classes: wide
 ---
 
-We support collaborative learning in Artificial Intelligence (AI), Data Science, and Machine Learning (ML) — with a special focus on interdisciplinary summer schools and workshops. All our resources are beginner-friendly, discussion-driven, and open-source.
+> 📍 **Now live:** [**Banz 2025 — Course Website »**](/banz-2025/)
+
+We design and deliver **interdisciplinary courses and workshops** that explore the technical foundations and societal implications of **Artificial Intelligence (AI)** and **Machine Learning (ML)**. Our modular teaching formats are accessible, discussion-driven, and adaptable — from summer schools to university seminars.
 
 <p align="center">
   <img src="/assets/img/logo.jpg" alt="Bridging AI & Society Banner" width="500">
 </p>
 
----
 
-## 🧭 What the Course Offers
+## 🧠 What We Offer
 
-👉 [Course » Overview](/course/)
+We support institutions and educators in bringing machine learning and AI into interdisciplinary classrooms. Our work includes:
 
-Our flagship course — **Machine Learning for Interdisciplinary Audiences** — combines core ML concepts, hands-on experimentation, and critical reflection on AI’s role in society.
+- 🧩 **Tailored course design**, adapted to audience, duration, and goals
+- 🐍 **Hands-on projects** using Python and interactive Colab notebooks
+- 💬 **Discussion-based teaching formats** for mixed-discipline groups
+- 🌍 **Societal deep-dives** on real-world AI issues — from healthcare to regulation
+- 📚 **Open educational resources** that can be reused or remixed
 
-### 📣 Introductory Talk
-A shared starting point that introduces the fundamentals of machine learning and builds common language across disciplines.
-
-### 🧠 Foundational ML Topics
-Four sessions covering classification, regression, tree-based models, and neural networks — taught with accessibility, not jargon.
+Whether for a one-day workshop or a 10-day summer academy, our materials and formats scale flexibly to suit different settings.
 
 
-👉 [Course » Technical Topics](/course/technical/)
+## 🧭 Our Teaching Philosophy
 
-### 💻 Python for Data Science
-A fast-paced, beginner-friendly introduction to Python, Jupyter notebooks, and key libraries like `pandas` and `scikit-learn`.
-No prior programming experience required.
+Our approach is built on three pillars:
 
-👉 🌐 [Browse the Python Course on GitHub](https://github.com/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course)
+### 1. **Accessible Machine Learning**
 
-### 🔎 Hands-On ML Sessions
-Interactive notebooks let participants explore ML in action — from decision trees to neural nets — all runnable via Google Colab.
+We teach the *what*, *how*, and *why* of ML systems — using clear examples and visual explanations, not technical jargon. Core concepts include:
 
-👉 🌐 [Try the Notebooks on GitHub](https://github.com/BridgingAISocietySummerSchools/Hands-On-Notebooks)
+- Classification, regression, trees, and neural networks
+- How ML differs from traditional programming
+- Key challenges like generalization and interpretability
 
-### 🌍 Societal Discussions
-Participant-led conversations on AI’s impact in the real world:
-- 🧭 The EU AI Act and global regulation
-- ⚖️ Algorithmic bias and fairness
-- 🏥 AI in healthcare
-- 📣 Misinformation and automation
+### 2. **Exploration by Doing**
 
-👉 [Course » Societal Topics](/course/societal/)
+Participants use real datasets and train real models. Through interactive notebooks, they:
 
-This modular design supports diverse learners — whether you're in science, policy, law, medicine, or the humanities.
+- Visualize decision boundaries
+- Tweak hyperparameters
+- See how learning algorithms work in practice
 
----
+Our **intro to Python workshop** supports absolute beginners, with no coding experience required.
 
-## 💾 Browse the GitHub Space
+### 3. **Societal Context**
 
-All materials are open-source and hosted on GitHub:
+From bias in algorithms to the EU AI Act, we link ML methods to their real-world consequences. Topics include:
+
+- ⚖️ Fairness and discrimination in automated systems
+- 🏥 AI in public health and diagnostics
+- 📣 Automation, misinformation, and the future of work
+- 🧭 Legal frameworks and global regulation
+
+Participants contribute their own disciplinary lens — we provide the structure for dialogue.
+
+
+## 💾 Explore Our GitHub Repositories
+
+All of our teaching materials are open-source and classroom-tested:
 
 🔗 **[github.com/BridgingAISocietySummerSchools](https://github.com/BridgingAISocietySummerSchools)**
 
-Repositories include:
-- 📓 🌐 [Hands-On Notebooks](https://github.com/BridgingAISocietySummerSchools/Hands-On-Notebooks)
-  Curated Colab-compatible notebooks to explore core ML methods — including gradient descent, trees, ensembles, and neural nets.
-  Supports experimentation, visualization, and intuitive learning.
+- 📓 [**Hands-On Notebooks**](https://github.com/BridgingAISocietySummerSchools/Hands-On-Notebooks)
+  Colab-ready exercises for interactive ML learning
 
-- 🐍 🌐 [Python for Data Science](https://github.com/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course)
-  Teaches Python fundamentals through applied examples — culminating in a weather data analysis project.
-  Includes setup instructions for Anaconda, virtual environments, and Jupyter.
+- 🐍 [**Python for Data Science**](https://github.com/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course)
+  Beginner-friendly crash course in Python, pandas, and scikit-learn
+
+Each repository includes setup instructions, example projects, and modular content blocks.
+
+
+## 🌍 Where We've Taught
+
+This program has been delivered in summer academies organized by the **Studienstiftung des Deutschen Volkes**, Germany’s national academic scholarship foundation. Past iterations include:
+
+- 🇬🇧 2019 — *St. John’s College, Cambridge (UK)*, including students from St. John’s
+- 🇩🇪 2021 — *Koppelsberg, Germany*
+- 🇸🇮 2024 — *Ljubljana, Slovenia*
+- 🇩🇪 2025 — *Banz Castle, Germany*, with students from the *College of Europe*
+
+Each event brings together students from across disciplines — from philosophy, law, and economics to physics, biology, and computer science.
+
+We continue to refine and adapt our program based on evolving challenges in AI and feedback from learners.
 
 ---
 
-## 🤝 Get Involved
-
-We welcome contributions and collaboration!
-Visit the GitHub repositories for more, or reach out via Issues and Discussions.
-
-_Last updated: July 2025_
+> 💡 Curious about what the course looks like in practice?
+> Visit our latest iteration: [**Banz 2025 Course Website »**](/banz-2025/)
