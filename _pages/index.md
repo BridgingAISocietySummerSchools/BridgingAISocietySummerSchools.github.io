@@ -1,5 +1,5 @@
 ---
-title: "Bridging AI & Society 🌞🤖"
+title: "Bridging AI and Society 🌞🤖"
 subtitle: "Collaborative Learning in AI and Machine Learning"
 description: "Teaching formats, resources, and tailored courses that connect machine learning with real-world impact."
 permalink: /
@@ -12,7 +12,7 @@ classes: wide
 We design and deliver **interdisciplinary courses and workshops** that explore the technical foundations and societal implications of **Artificial Intelligence (AI)** and **Machine Learning (ML)**. Our modular teaching formats are accessible, discussion-driven, and adaptable — from summer schools to university seminars.
 
 <p align="center">
-  <img src="/assets/img/logo.jpg" alt="Bridging AI & Society Banner" width="500">
+  <img src="/assets/img/logo.jpg" alt="Bridging AI and Society Banner" width="500">
 </p>
 
 
