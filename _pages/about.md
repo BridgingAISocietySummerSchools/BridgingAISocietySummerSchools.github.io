@@ -25,7 +25,7 @@ We are a team of two passionate educators dedicated to making AI and machine lea
   <div style="text-align: left; margin-bottom: 1rem;">
     <strong>Ph.D.</strong> in applied statistics<br><br>
     <strong>Research:</strong> applied statistics and data science, forecasting, agentic systems<br><br>
-    Passionate about teaching and business 
+    Passionate about teaching and business data science
   </div>
   
   <div style="margin-top: 1rem;">
