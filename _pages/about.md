@@ -22,7 +22,7 @@ We are a team of two passionate educators dedicated to making AI and machine lea
     BASF
   </p>
   
-  <div style="text-align: left; margin-bottom: 1rem;">
+x  <div style="text-align: left; margin-bottom: 1rem;">
     <strong>Ph.D.</strong> in applied statistics<br><br>
     <strong>Research:</strong> applied statistics and data science, forecasting, agentic systems<br><br>
     Passionate about teaching and business data science
@@ -33,7 +33,7 @@ We are a team of two passionate educators dedicated to making AI and machine lea
       <strong>Email:</strong> <a href="mailto:christoph.weisser@oxfordalumni.org">christoph.weisser@oxfordalumni.org</a>
     </p>
     <p style="margin: 0.25rem 0;">
-      <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/christophweisser" target="_blank">christophweisser</a>
+      💼 <a href="https://linkedin.com/in/christophweisser" target="_blank"><strong>LinkedIn</strong></a>
     </p>
   </div>
 </div>
@@ -60,7 +60,7 @@ We are a team of two passionate educators dedicated to making AI and machine lea
       <strong>Email:</strong> <a href="mailto:kzoch@g.harvard.edu">kzoch@g.harvard.edu</a>
     </p>
     <p style="margin: 0.25rem 0;">
-      <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/knutzk" target="_blank">knutzk</a>
+      💼 <a href="https://linkedin.com/in/knutzk" target="_blank"><strong>LinkedIn</strong></a>
     </p>
   </div>
 </div>
