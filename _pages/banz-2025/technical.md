@@ -1,8 +1,7 @@
 ---
 title: "Technical Sessions"
-layout: single
+description: "Overview of the technical sessions from the Banz 2025 ML course — collaborative, discussion-based modules covering classification, regression, trees, and neural networks."
 permalink: /banz-2025/technical/
-classes: wide
 ---
 
 This page outlines the structure and content of the four technical sessions in our *Machine Learning for Interdisciplinary Audiences* course. Each session covers a major area of machine learning and is built around collaborative, discussion-based learning.

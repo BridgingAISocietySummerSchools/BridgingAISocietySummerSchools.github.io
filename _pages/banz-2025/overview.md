@@ -1,8 +1,7 @@
 ---
 title: "Banz 2025 – Overview"
-layout: single
+description: "Overview of the Banz 2025 course — a modular, hands-on, and discussion-driven introduction to machine learning and its societal impact for interdisciplinary audiences."
 permalink: /banz-2025/
-classes: wide
 ---
 
 Welcome to the **Machine Learning for Interdisciplinary Audiences** course — a modular, discussion-driven program designed to introduce core machine learning (ML) concepts, practical tools, and societal implications to participants from diverse academic backgrounds.

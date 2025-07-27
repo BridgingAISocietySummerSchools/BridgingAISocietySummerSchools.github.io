@@ -1,10 +1,8 @@
 ---
 title: "Bridging AI and Society 🌞🤖"
 subtitle: "Collaborative Learning in AI and Machine Learning"
-description: "Teaching formats, resources, and tailored courses that connect machine learning with real-world impact."
+description: "We design and teach machine learning and AI courses that bridge technical foundations and societal impact — accessible, hands-on, and interdisciplinary."
 permalink: /
-layout: single
-classes: wide
 ---
 
 > 📍 **Now live:** [**Banz 2025 — Course Website »**](/banz-2025/)
