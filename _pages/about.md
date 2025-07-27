@@ -51,7 +51,7 @@ We are a team of two passionate educators dedicated to making AI and machine lea
   
   <div style="text-align: left; margin-bottom: 1rem;">
     <strong>Ph.D.</strong> in experimental particle physics<br><br>
-    <strong>Research:</strong> data analysis of particle physics collisions, ML for big-data science<br><br>
+    <strong>Research:</strong> data analysis of particle physics collisions, ML for big-data<br><br>
     Passionate about teaching and interdisciplinary science
   </div>
   
