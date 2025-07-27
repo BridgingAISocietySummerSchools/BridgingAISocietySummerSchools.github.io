@@ -1,5 +1,7 @@
 main:
   - title: "Home"
     url: /
+  - title: "About"
+    url: /about/
   - title: "Banz 2025"
     url: /banz-2025/
