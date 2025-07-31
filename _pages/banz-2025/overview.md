@@ -86,6 +86,11 @@ Topics include:
 
 ➡️ [Explore the notebooks on GitHub](https://github.com/BridgingAISocietySummerSchools/Hands-On-Notebooks)
 
+For participants with prior programming or machine learning experience, we also offer a set of **optional coding challenges** as an alternative to the hands-on sessions. These short projects use real-world datasets to explore the societal impact of AI through applied work in areas like food quality, misinformation, and digital well-being.
+
+➡️ [Try the advanced coding challenges on GitHub](https://github.com/BridgingAISocietySummerSchools/Coding-Project)
+
+
 ---
 
 ### 🌍 5. Societal Topic Sessions
