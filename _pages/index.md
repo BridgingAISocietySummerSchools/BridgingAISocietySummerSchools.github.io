@@ -73,6 +73,9 @@ All of our teaching materials are open-source and classroom-tested:
 - 🐍 [**Python for Data Science**](https://github.com/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course)
   Beginner-friendly crash course in Python, pandas, and scikit-learn
 
+- 💡 [**Coding Challenges**](https://github.com/BridgingAISocietySummerSchools/Coding-Project)
+  Short, real-world AI projects for advanced learners
+
 Each repository includes setup instructions, example projects, and modular content blocks.
 
 
