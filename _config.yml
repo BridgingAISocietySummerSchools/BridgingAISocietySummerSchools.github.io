@@ -13,7 +13,7 @@ locale: "en-US"
 timezone: "Europe/Zurich"
 
 author:
-  name: "Bridging AI and Society Team"
+  name: "Christoph Weisser, Knut Zoch"
 
 include:
   - _pages
@@ -28,7 +28,7 @@ defaults:
 
 plugins:
   - jekyll-feed
-  # - jekyll-seo-tag  # Re-enable once we have a proper SEO setup
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-include-cache
 
