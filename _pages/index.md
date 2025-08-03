@@ -83,9 +83,9 @@ Each repository includes setup instructions, example projects, and modular conte
 
 This program has been delivered in summer academies organized by the **Studienstiftung des Deutschen Volkes**, Germany’s national academic scholarship foundation. Past iterations include:
 
-- 🇬🇧 2019 — *St. John’s College, Cambridge (UK)*, including students from St. John’s
+- 🇬🇧 2019 — *St. John’s College, Cambridge (UK)*, including students from *St. John’s College, Cambridge University* 
 - 🇩🇪 2021 — *Koppelsberg, Germany*
-- 🇸🇮 2024 — *Ljubljana, Slovenia*
+- 🇸🇮 2024 — *Ljubljana, Slovenia*, with students from *Max Weber Program, Elite Network of Bavaria*
 - 🇩🇪 2025 — *Banz Castle, Germany*, with students from the *College of Europe*
 
 Each event brings together students from across disciplines — from philosophy, law, and economics to physics, biology, and computer science.
