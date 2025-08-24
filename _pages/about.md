@@ -1,13 +1,11 @@
 ---
 title: "About Us"
 subtitle: "Who We Are"
-description: "Meet the team behind Bridging AI and Society"
+description: "Meet Dr. Christoph Weisser and Dr. Knut Zoch, educators bridging artificial intelligence, machine learning, and society through interdisciplinary teaching and research."
 permalink: /about/
 ---
 
-## 👥 Who We Are
-
-We are a team of two passionate educators dedicated to making AI and machine learning accessible across disciplines. Our mission is to bridge the gap between technical foundations and societal impact through collaborative, hands-on learning.
+We are **Dr. Christoph Weisser** and **Dr. Knut Zoch**, two educators dedicated to making artificial intelligence and machine learning accessible across disciplines. Our shared goal is to connect **technical foundations** with **societal questions**, helping participants understand not only how machine learning works but also what it means for their fields and for society at large.
 
 <style>
   .author-grid {
@@ -97,12 +95,12 @@ We are a team of two passionate educators dedicated to making AI and machine lea
     </div>
 
     <div class="author-links">
-      <!-- <p>
-        <a href="#" class="email-link" data-user="christoph.weisser" data-domain="oxfordalumni.org">
+      <p>
+        <a href="#" class="email-link" data-user="christoph">
           <i class="fas fa-envelope" style="margin-right: 0.4rem;"></i>
           <span class="email-text">[email protected]</span>
         </a>
-      </p> -->
+      </p>
       <p>
         <a href="https://linkedin.com/in/christophweisser" target="_blank">
           <i class="fab fa-linkedin" style="margin-right: 0.4rem;"></i>
@@ -127,12 +125,12 @@ We are a team of two passionate educators dedicated to making AI and machine lea
     </div>
 
     <div class="author-links">
-      <!-- <p>
-        <a href="#" class="email-link" data-user="knut.zoch" data-domain="cern.ch">
+      <p>
+        <a href="#" class="email-link" data-user="knut">
           <i class="fas fa-envelope" style="margin-right: 0.4rem;"></i>
           <span class="email-text">[email protected]</span>
         </a>
-      </p> -->
+      </p>
       <p>
         <a href="https://linkedin.com/in/knutzk" target="_blank">
           <i class="fab fa-linkedin" style="margin-right: 0.4rem;"></i>
@@ -147,21 +145,46 @@ We are a team of two passionate educators dedicated to making AI and machine lea
   We look forward to learning and exploring with you!
 </div>
 
-## 🎯 Our Mission
+## Our Mission
 
-We believe that understanding AI and machine learning should not be limited to data scientists. By creating accessible, interdisciplinary educational experiences, we aim to:
+We believe that AI and machine learning should not be the domain of specialists alone. By creating accessible, interdisciplinary educational experiences, we aim to:
 
-- **Democratize AI education** across all academic disciplines
+- **Democratize AI education** across disciplines
 - **Foster critical thinking** about AI's role in society
 - **Build bridges** between technical expertise and societal impact
 - **Empower educators** with flexible, reusable teaching materials
 
+## Where We’ve Taught
+
+Since 2019, our courses have been part of summer academies and workshops across Europe, often in collaboration with the *Studienstiftung des Deutschen Volkes* (German National Academic Foundation) and other academic partners.
+
+- 🇬🇧 **2019, Cambridge, UK** — St. John’s College, Cambridge, with participants from Cambridge University.
+
+- 🇩🇪 **2021, Koppelsberg, Germany** — Interdisciplinary summer academy with participants from across Germany.
+
+- 🇸🇮 **2024, Ljubljana, Slovenia** — Joint program with students from the *Max Weber Program, Elite Network of Bavaria*.
+
+- 🇩🇪 **2025, Banz Castle, Germany** — Summer academy with participants from the *College of Europe*.
+
+Each of these programs brought together students from diverse disciplines — philosophy, law, economics, biology, physics, and more — creating a truly interdisciplinary dialogue on AI and society.
+
+## Open Resources
+
+All of our teaching materials are **open-source** and freely available on our [GitHub organisation page](https://github.com/BridgingAISocietySummerSchools):
+
+- [**Hands-On Notebooks**](https://github.com/BridgingAISocietySummerSchools/Hands-On-Notebooks) – Colab-ready exercises for interactive ML learning
+- [**Python for Data Science**](https://github.com/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course) – A beginner-friendly crash course covering Python, pandas, and scikit-learn
+- [**Coding Challenges**](https://github.com/BridgingAISocietySummerSchools/Coding-Project) – Short projects inspired by real-world AI applications
+
+Each repository includes setup instructions, example projects, and modular content blocks for educators and learners alike.
+
+---
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll('.email-link').forEach(link => {
       const user = link.dataset.user;
-      const domain = link.dataset.domain;
+      const domain = "bridgingaiandsociety.org";
       const email = `${user}@${domain}`;
       link.href = `mailto:${email}`;
       link.querySelector('.email-text').textContent = email;
