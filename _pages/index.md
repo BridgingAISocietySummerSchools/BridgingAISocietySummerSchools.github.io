@@ -1,5 +1,5 @@
 ---
-title: "Bridging AI and Society"
+title: "Welcome!"
 subtitle: "Machine Learning and AI Education for Interdisciplinary Audiences"
 description: "Interdisciplinary machine learning and AI courses by Dr. Christoph Weisser and Dr. Knut Zoch. Hands-on workshops and summer schools combining technical foundations with societal impact."
 permalink: /
