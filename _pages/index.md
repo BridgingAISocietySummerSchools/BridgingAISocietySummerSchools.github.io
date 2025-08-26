@@ -1,11 +1,9 @@
 ---
 title: "Bridging AI and Society"
 subtitle: "Machine Learning and AI Education for Interdisciplinary Audiences"
-description: "Interdisciplinary machine learning and AI courses by Christoph Weisser and Knut Zoch. Hands-on workshops and summer schools combining technical foundations with societal impact."
+description: "Interdisciplinary machine learning and AI courses by Dr. Christoph Weisser and Dr. Knut Zoch. Hands-on workshops and summer schools combining technical foundations with societal impact."
 permalink: /
 ---
-
-> 📍 **Now live:** [**Banz 2025 — Course Website »**](/banz-2025/)
 
 We are **Dr. Christoph Weisser** and **Dr. Knut Zoch**, two educators with backgrounds in applied statistics and experimental physics. Together, we design and teach interdisciplinary courses and workshops that explore both the **technical foundations** of machine learning and the **societal questions** raised by artificial intelligence.
 
