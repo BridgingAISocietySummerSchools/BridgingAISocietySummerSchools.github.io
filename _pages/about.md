@@ -5,7 +5,20 @@ description: "Meet Dr. Christoph Weisser and Dr. Knut Zoch, educators bridging a
 permalink: /about/
 ---
 
-We are **Dr. Christoph Weisser** and **Dr. Knut Zoch**, two educators dedicated to making artificial intelligence and machine learning accessible across disciplines. Our shared goal is to connect **technical foundations** with **societal questions**, helping participants understand not only how machine learning works but also what it means for their fields and for society at large.
+Artificial intelligence and machine learning are reshaping how we live, work, and think. Yet education in these areas is often fragmented — either highly technical or focused only on societal debates.
+
+Our project exists to bridge this gap. We bring **technical foundations** and **societal perspectives** together in one classroom, creating space for students from diverse disciplines to learn, question, and collaborate.
+
+## Teaching Philosophy
+
+We believe that AI and machine learning education should not remain the domain of specialists alone. Our approach is:
+
+- **Accessible** — tailored to students and professionals from diverse disciplines
+- **Hands-on** — focused on interactive coding and practical data analysis
+- **Critical** — addressing fairness, transparency, regulation, and ethical questions
+- **Interdisciplinary** — creating dialogue between natural sciences, social sciences, and the humanities
+
+Our courses are designed to be both **practically useful** and **thought-provoking**, equipping participants with skills and perspectives they can carry into their own fields.
 
 ## Who We Are
 
