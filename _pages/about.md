@@ -7,133 +7,61 @@ permalink: /about/
 
 We are **Dr. Christoph Weisser** and **Dr. Knut Zoch**, two educators dedicated to making artificial intelligence and machine learning accessible across disciplines. Our shared goal is to connect **technical foundations** with **societal questions**, helping participants understand not only how machine learning works but also what it means for their fields and for society at large.
 
-<style>
-  .author-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-    margin: 2rem 0;
-  }
-
-  .author-profile {
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
-  }
-
-  .author-profile:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
-  }
-
-  .author-avatar img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 1rem;
-  }
-
-  .author-profile h3 {
-    margin-bottom: 0.25rem;
-    font-size: 1.25rem;
-    color: #333;
-  }
-
-  .author-title {
-    color: #666;
-    font-style: italic;
-    margin-bottom: 1.25rem;
-  }
-
-  .author-info {
-    text-align: left;
-    font-size: 0.95rem;
-    line-height: 1.5;
-    color: #444;
-  }
-
-  .author-info p {
-    margin: 0.5rem 0;
-  }
-
-  .author-links {
-    margin-top: 1.5rem;
-  }
-
-  .author-links p {
-    margin: 0.25rem 0;
-    font-size: 0.8rem;
-    /* color: #007bff; */
-  }
-
-  .author-links i {
-    margin-right: 0.4rem;
-  }
-
-  .author-links a {
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  .author-links a:hover {
-    text-decoration: underline;
-  }
-</style>
+## Who We Are
 
 <div class="author-grid">
-  <div class="author-profile">
-    <div class="author-avatar">
-      <img src="{{ '/assets/img/headshot-christoph.jpg' | relative_url }}" alt="Dr. Christoph Weisser">
+  <div class="author-card">
+    <div class="author-card-header">
+      <div class="author-card-avatar">
+        <img src="{{ '/assets/img/headshot-christoph.jpg' | relative_url }}" alt="Dr. Christoph Weisser" loading="lazy">
+      </div>
+      <div>
+        <h3>Dr. Christoph Weisser</h3>
+        <p>Technical Lead Analytics &amp; AI<br>BASF</p>
+      </div>
     </div>
 
-    <h3>Dr. Christoph Weisser</h3>
-    <p class="author-title">Technical Lead Analytics & AI<br>BASF</p>
+    <p><strong>Ph.D.</strong> in applied statistics</p>
+    <p><strong>Research:</strong> applied statistics and data science, forecasting, agentic systems</p>
+    <p>Passionate about teaching and business data science</p>
 
-    <div class="author-info">
-      <p><strong>Ph.D.</strong> in applied statistics</p>
-      <p><strong>Research:</strong> applied statistics and data science, forecasting, agentic systems</p>
-      <p>Passionate about teaching and business data science</p>
-    </div>
-
-    <div class="author-links">
+    <div class="author-card-links">
       <p>
         <a href="#" class="email-link" data-user="christoph" aria-label="Email Christoph Weisser">
           <i class="fas fa-envelope" aria-hidden="true"></i><span class="email-text">[email protected]</span>
         </a>
       </p>
       <p>
-        <a href="https://linkedin.com/in/christophweisser" target="_blank">
+        <a href="https://linkedin.com/in/christophweisser" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-linkedin"></i>Connect on LinkedIn
         </a>
       </p>
     </div>
   </div>
 
-  <div class="author-profile">
-    <div class="author-avatar">
-      <img src="{{ '/assets/img/headshot-knut.jpg' | relative_url }}" alt="Dr. Knut Zoch">
+  <div class="author-card">
+    <div class="author-card-header">
+      <div class="author-card-avatar">
+        <img src="{{ '/assets/img/headshot-knut.jpg' | relative_url }}" alt="Dr. Knut Zoch" loading="lazy">
+      </div>
+      <div>
+        <h3>Dr. Knut Zoch</h3>
+        <p>Physicist<br>Harvard University</p>
+      </div>
     </div>
 
-    <h3>Dr. Knut Zoch</h3>
-    <p class="author-title">Physicist<br>Harvard University</p>
+    <p><strong>Ph.D.</strong> in experimental particle physics</p>
+    <p><strong>Research:</strong> big data analytics at CERN, machine learning for science</p>
+    <p>Passionate about teaching and interdisciplinary science</p>
 
-    <div class="author-info">
-      <p><strong>Ph.D.</strong> in experimental particle physics</p>
-      <p><strong>Research:</strong> big data analytics at CERN, machine learning for science</p>
-      <p>Passionate about teaching and interdisciplinary science</p>
-    </div>
-
-    <div class="author-links">
+    <div class="author-card-links">
       <p>
         <a href="#" class="email-link" data-user="knut" aria-label="Email Knut Zoch">
           <i class="fas fa-envelope" aria-hidden="true"></i><span class="email-text">[email protected]</span>
         </a>
       </p>
       <p>
-        <a href="https://linkedin.com/in/knutzk" target="_blank">
+        <a href="https://linkedin.com/in/knutzk" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-linkedin"></i>Connect on LinkedIn
         </a>
       </p>
