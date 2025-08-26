@@ -1,0 +1,19 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const DOMAIN = "bridgingaiandsociety.org";
+  const DEFAULT_USER = "info";
+
+  document.querySelectorAll(".email-link").forEach(link => {
+    const user = link.dataset.user || DEFAULT_USER;
+    const email = `${user}@${DOMAIN}`;
+    link.href = `mailto:${email}`;
+
+    const span = link.querySelector(".email-text");
+    if (span) span.textContent = email;
+
+    if (!link.getAttribute("aria-label")) {
+      link.setAttribute("aria-label", `Email ${user}`);
+    }
+  });
+});
+</script>
