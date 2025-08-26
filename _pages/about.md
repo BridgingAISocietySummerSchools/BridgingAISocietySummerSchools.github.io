@@ -69,6 +69,10 @@ We are **Dr. Christoph Weisser** and **Dr. Knut Zoch**, two educators dedicated 
     /* color: #007bff; */
   }
 
+  .author-links i {
+    margin-right: 0.4rem;
+  }
+
   .author-links a {
     text-decoration: none;
     font-weight: bold;
@@ -96,15 +100,13 @@ We are **Dr. Christoph Weisser** and **Dr. Knut Zoch**, two educators dedicated 
 
     <div class="author-links">
       <p>
-        <a href="#" class="email-link" data-user="christoph">
-          <i class="fas fa-envelope" style="margin-right: 0.4rem;"></i>
-          <span class="email-text">[email protected]</span>
+        <a href="#" class="email-link" data-user="christoph" aria-label="Email Christoph Weisser">
+          <i class="fas fa-envelope" aria-hidden="true"></i><span class="email-text">[email protected]</span>
         </a>
       </p>
       <p>
         <a href="https://linkedin.com/in/christophweisser" target="_blank">
-          <i class="fab fa-linkedin" style="margin-right: 0.4rem;"></i>
-          Connect on LinkedIn
+          <i class="fab fa-linkedin"></i>Connect on LinkedIn
         </a>
       </p>
     </div>
@@ -126,15 +128,13 @@ We are **Dr. Christoph Weisser** and **Dr. Knut Zoch**, two educators dedicated 
 
     <div class="author-links">
       <p>
-        <a href="#" class="email-link" data-user="knut">
-          <i class="fas fa-envelope" style="margin-right: 0.4rem;"></i>
-          <span class="email-text">[email protected]</span>
+        <a href="#" class="email-link" data-user="knut" aria-label="Email Knut Zoch">
+          <i class="fas fa-envelope" aria-hidden="true"></i><span class="email-text">[email protected]</span>
         </a>
       </p>
       <p>
         <a href="https://linkedin.com/in/knutzk" target="_blank">
-          <i class="fab fa-linkedin" style="margin-right: 0.4rem;"></i>
-          Connect on LinkedIn
+          <i class="fab fa-linkedin"></i>Connect on LinkedIn
         </a>
       </p>
     </div>
@@ -179,15 +179,3 @@ All of our teaching materials are **open-source** and freely available on our [G
 Each repository includes setup instructions, example projects, and modular content blocks for educators and learners alike.
 
 ---
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll('.email-link').forEach(link => {
-      const user = link.dataset.user;
-      const domain = "bridgingaiandsociety.org";
-      const email = `${user}@${domain}`;
-      link.href = `mailto:${email}`;
-      link.querySelector('.email-text').textContent = email;
-    });
-  });
-</script>
