@@ -1,9 +1,11 @@
 ---
-title: "Welcome!"
+title: false
 subtitle: "Machine Learning and AI Education for Interdisciplinary Audiences"
 description: "Interdisciplinary machine learning and AI courses by Dr. Christoph Weisser and Dr. Knut Zoch. Hands-on workshops and summer schools combining technical foundations with societal impact."
 permalink: /
 ---
+
+# Welcome!
 
 We are **Dr. Christoph Weisser** and **Dr. Knut Zoch**, two educators with backgrounds in applied statistics and experimental physics. Together, we design and teach interdisciplinary courses and workshops that explore both the **technical foundations** of machine learning and the **societal questions** raised by artificial intelligence.
 
