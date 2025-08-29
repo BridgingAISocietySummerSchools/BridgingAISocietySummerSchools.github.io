@@ -1,12 +1,12 @@
 ---
-title: "Banz 2025 – Overview"
-description: "Overview of the Banz 2025 course — a modular, hands-on, and discussion-driven introduction to machine learning and its societal impact for interdisciplinary audiences."
+title: "Banz 2025 – Machine Learning Workshop"
+description: "Overview of the Banz 2025 workshop — a modular, hands-on introduction to machine learning and its societal impact for interdisciplinary audiences."
 permalink: /banz-2025/
 ---
 
-Welcome to the **Machine Learning for Interdisciplinary Audiences** course — a modular, discussion-driven program designed to introduce core machine learning (ML) concepts, practical tools, and societal implications to participants from diverse academic backgrounds.
+Welcome to the **Banz 2025 Machine Learning Workshop**, part of the summer school program of the German Academic Scholarship Foundation. This modular, hands-on and discussion-driven workshop introduces core concepts of machine learning (ML), practical tools for data analysis, and the societal impact of AI and ML. It is designed for participants from diverse academic backgrounds.
 
-Whether you’re coming from the natural sciences, social sciences, or the humanities, this course is designed to be accessible, thought-provoking, and hands-on.
+Whether you come from the natural sciences, social sciences, or the humanities, this interdisciplinary workshop is accessible, thought-provoking, and interactive. The goal is to make machine learning understandable and relevant, while encouraging reflection on how these technologies shape research and society.
 
 👉 Jump directly to:
 [Technical Topics](/banz-2025/technical/) | [Societal Topics](/banz-2025/societal/)

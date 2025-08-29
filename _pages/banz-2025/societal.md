@@ -1,10 +1,10 @@
 ---
-title: "Societal Sessions"
-description: "Overview of the societal sessions from the Banz 2025 ML course — discussion-based topics on algorithmic bias, AI regulation, misinformation, and the ethics of machine learning."
+title: "Societal Sessions at Banz 2025"
+description: "Discussion-based sessions from the Banz 2025 Machine Learning workshop, covering algorithmic bias, AI regulation, misinformation, and ethics."
 permalink: /banz-2025/societal/
 ---
 
-This page outlines the themes and discussion questions for the **Societal Sessions** in our *Machine Learning for Interdisciplinary Audiences* course. Each topic is designed for a 60-minute participant-led session and includes key framing questions and interdisciplinary relevance.
+This page outlines the themes and discussion questions for the **Societal Sessions at Banz 2025**, part of the Machine Learning workshop of the German Academic Scholarship Foundation. These sessions explore the social and ethical dimensions of AI and machine learning, including topics such as algorithmic bias, regulation, misinformation, and broader questions of responsibility. Each theme is designed for a 60-minute participant-led discussion with guiding questions and interdisciplinary perspectives.
 
 ---
 

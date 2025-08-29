@@ -1,7 +1,6 @@
 ---
-title: "About Us"
-subtitle: "Who We Are"
-description: "Meet Dr. Christoph Weisser and Dr. Knut Zoch, educators bridging artificial intelligence, machine learning, and society through interdisciplinary teaching and research."
+title: "About Our Team & Mission"
+description: "Learn about the team behind Bridging AI & Society. Dr. Christoph Weisser and Dr. Knut Zoch lead interdisciplinary AI and machine learning education."
 permalink: /about/
 ---
 

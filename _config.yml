@@ -1,8 +1,8 @@
-title: "Bridging AI & Society – Interdisciplinary Machine Learning Education"
-masthead_title: "Bridging AI & Society"
-subtitle: "Interdisciplinary Machine Learning Education"
+title: "Bridging AI & Society"
+title_separator: " | "
+subtitle: "Interdisciplinary ML Education"
 copyright: Christoph Weisser, Knut Zoch
-description: "Accessible, interdisciplinary teaching in machine learning and AI — hands-on, discussion-driven, and socially grounded."
+description: "Interdisciplinary machine learning courses by Dr. Christoph Weisser and Dr. Knut Zoch – hands-on workshops combining technical foundations with societal impact."
 
 url: "https://bridgingaiandsociety.org"
 repository: "bridgingaiandsociety/bridgingaiandsociety.github.io"
