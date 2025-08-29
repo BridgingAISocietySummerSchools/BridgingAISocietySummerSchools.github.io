@@ -10,7 +10,7 @@ Our project exists to bridge this gap. We bring **technical foundations** and **
 
 ## Teaching Philosophy
 
-We believe that AI and machine learning education should not remain the domain of specialists alone. Our approach is:
+Our team believes that AI and machine learning education should not remain the domain of specialists alone. Our mission is to deliver an approach that is:
 
 - **Accessible** — tailored to students and professionals from diverse disciplines
 - **Hands-on** — focused on interactive coding and practical data analysis
@@ -84,15 +84,6 @@ Our courses are designed to be both **practically useful** and **thought-provoki
 <div style="text-align: center; margin-top: 2rem; font-style: italic; color: #666;">
   We look forward to learning and exploring with you!
 </div>
-
-## Our Mission
-
-We believe that AI and machine learning should not be the domain of specialists alone. By creating accessible, interdisciplinary educational experiences, we aim to:
-
-- **Democratize AI education** across disciplines
-- **Foster critical thinking** about AI's role in society
-- **Build bridges** between technical expertise and societal impact
-- **Empower educators** with flexible, reusable teaching materials
 
 ## Where We’ve Taught
 
