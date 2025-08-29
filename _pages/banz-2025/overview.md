@@ -11,13 +11,9 @@ Whether you come from the natural sciences, social sciences, or the humanities, 
 👉 Jump directly to:
 [Technical Topics](/banz-2025/technical/) | [Societal Topics](/banz-2025/societal/)
 
----
-
-### 🧭 Course Structure
+## 🧭 Course Structure
 
 The course consists of five interconnected components that blend foundational knowledge, interactive practice, and critical reflection:
-
----
 
 ### 📣 1. Introductory Talk
 
