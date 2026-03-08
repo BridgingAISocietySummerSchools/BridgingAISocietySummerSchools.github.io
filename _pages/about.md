@@ -29,7 +29,7 @@ Our courses are designed to be both **practically useful** and **thought-provoki
       </div>
       <div>
         <h3>Prof. Dr. Christoph Weisser</h3>
-        <p>Professor of Mathematics, in particular Business Data Science &amp; <br>HSBI</p>
+        <p>Professor of Mathematics, in particular Business Data Science; <br>HSBI</p>
       </div>
     </div>
 
