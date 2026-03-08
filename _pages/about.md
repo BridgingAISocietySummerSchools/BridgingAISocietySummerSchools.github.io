@@ -28,8 +28,8 @@ Our courses are designed to be both **practically useful** and **thought-provoki
         <img src="{{ '/assets/img/headshot-christoph.jpg' | relative_url }}" alt="Dr. Christoph Weisser" loading="lazy">
       </div>
       <div>
-        <h3>Dr. Christoph Weisser</h3>
-        <p>Technical Lead Analytics &amp; AI<br>BASF</p>
+        <h3>Prof. Dr. Christoph Weisser</h3>
+        <p>Professor of Mathematics, in particular Business Data Science &amp; AI<br>HSBI</p>
       </div>
     </div>
 
