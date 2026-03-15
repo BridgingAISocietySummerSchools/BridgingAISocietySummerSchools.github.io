@@ -29,6 +29,13 @@ author:
 include:
   - _pages
 
+footer:
+  links:
+    - label: "Impressum"
+      url: /impressum/
+    - label: "Privacy Policy"
+      url: /privacy/
+
 defaults:
   - scope:
       path: ""
