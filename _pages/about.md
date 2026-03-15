@@ -58,7 +58,7 @@ Our courses are designed to be both **practically useful** and **thought-provoki
       </div>
       <div>
         <h3>Dr. Knut Zoch</h3>
-        <p>Physicist<br>Harvard University</p>
+        <p>Physicist<br>Research Fellow<br>CERN</p>
       </div>
     </div>
 
