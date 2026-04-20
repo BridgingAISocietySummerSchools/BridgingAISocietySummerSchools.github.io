@@ -2,6 +2,8 @@
 title: "Banz 2025 – Machine Learning Workshop"
 description: "Overview of the Banz 2025 workshop — a modular, hands-on introduction to machine learning and its societal impact for interdisciplinary audiences."
 permalink: /banz-2025/
+sidebar:
+  nav: "banz_2025_sidebar"
 ---
 
 Welcome to the **Banz 2025 Machine Learning Workshop**, part of the summer school program of the German Academic Scholarship Foundation. This modular, hands-on and discussion-driven workshop introduces core concepts of machine learning (ML), practical tools for data analysis, and the societal impact of AI and ML. It is designed for participants from diverse academic backgrounds.

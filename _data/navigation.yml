@@ -3,5 +3,15 @@ main:
     url: /
   - title: "About"
     url: /about/
+  - title: "Courses"
+    url: /courses/
+
+banz_2025_sidebar:
   - title: "Banz 2025"
-    url: /banz-2025/
+    children:
+      - title: "Overview"
+        url: /banz-2025/
+      - title: "Technical Topics"
+        url: /banz-2025/technical/
+      - title: "Societal Topics"
+        url: /banz-2025/societal/

@@ -2,6 +2,8 @@
 title: "Technical Sessions at Banz 2025"
 description: "Technical sessions from the Banz 2025 Machine Learning workshop — collaborative modules on classification, regression, decision trees, and neural networks."
 permalink: /banz-2025/technical/
+sidebar:
+  nav: "banz_2025_sidebar"
 ---
 
 This page outlines the structure and content of the **Technical Sessions at Banz 2025**, part of the Machine Learning workshop of the German Academic Scholarship Foundation. These sessions cover major areas of machine learning, including classification, regression, decision trees, and neural networks. Each module is designed as a collaborative, discussion-based learning experience for an interdisciplinary audience.
