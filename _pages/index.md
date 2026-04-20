@@ -20,11 +20,10 @@ We help participants build a clear understanding of core machine learning ideas,
 
 Learn more about [our curriculum and past editions](/courses/).
 
----
 
 ## Current Focus: Obertauern 2026 (Austria)
 
-Following our successful school at Banz Abbey in 2025, we are now preparing for the next iteration in **Obertauern, Austria**. While this new course remains true to our core mission of bridging foundational ML and societal impact, we will also incorporate recent developments in generative AI and autonomous systems.
+Following our successful school at Banz Abbey, Germany in 2025, we are now preparing for the next iteration in **Obertauern, Austria**. While this new course remains true to our core mission of bridging foundational ML and societal impact, we will also incorporate recent developments in generative AI and autonomous systems.
 
 <div class="notice--info">
   <p><strong>🏔️ Obertauern 2026: The Next School</strong></p>
