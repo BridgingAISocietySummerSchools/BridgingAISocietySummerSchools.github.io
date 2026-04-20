@@ -3,6 +3,8 @@ main:
     url: /
   - title: "About"
     url: /about/
+  - title: "Courses"
+    url: /courses/
 
 banz_2025_sidebar:
   - title: "Banz 2025"

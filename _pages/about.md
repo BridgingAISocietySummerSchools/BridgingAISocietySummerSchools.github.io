@@ -8,16 +8,11 @@ Artificial intelligence and machine learning are reshaping how we live, work, an
 
 Our project exists to bridge this gap. We bring **technical foundations** and **societal perspectives** together in one classroom, creating space for students from diverse disciplines to learn, question, and collaborate.
 
-## Teaching Philosophy
+## Philosophy
 
-Our team believes that AI and machine learning education should not remain the domain of specialists alone. Our mission is to deliver an approach that is:
+Our team believes that AI and machine learning education should not remain the domain of specialists alone. We deliver an approach that is **accessible** to all, **hands-on** by design, and deeply **critical** of the impact these technologies have on our world.
 
-- **Accessible** — tailored to students and professionals from diverse disciplines
-- **Hands-on** — focused on interactive coding and practical data analysis
-- **Critical** — addressing fairness, transparency, regulation, and ethical questions
-- **Interdisciplinary** — creating dialogue between natural sciences, social sciences, and the humanities
-
-Our courses are designed to be both **practically useful** and **thought-provoking**, equipping participants with skills and perspectives they can carry into their own fields.
+Our courses are designed to be both **practically useful** and **thought-provoking**, equipping participants with skills and perspectives they can carry into their own fields. For a deeper look at our specific curriculum and guiding principles, see our [Courses](/courses/).
 
 ## Who We Are
 
@@ -85,19 +80,11 @@ Our courses are designed to be both **practically useful** and **thought-provoki
   We look forward to learning and exploring with you!
 </div>
 
-## Where We’ve Taught
+## Experience
 
 Since 2019, our courses have been part of summer academies and workshops across Europe, often in collaboration with the *Studienstiftung des Deutschen Volkes* (German National Academic Foundation) and other academic partners.
 
-- 🇬🇧 **2019, Cambridge, UK** — St. John’s College, Cambridge, with participants from Cambridge University.
-
-- 🇩🇪 **2021, Koppelsberg, Germany** — Interdisciplinary summer academy with participants from across Germany.
-
-- 🇸🇮 **2024, Ljubljana, Slovenia** — Joint program with students from the *Max Weber Program, Elite Network of Bavaria*.
-
-- 🇩🇪 **2025, Banz Castle, Germany** — Summer academy with participants from the *College of Europe*.
-
-Each of these programs brought together students from diverse disciplines — philosophy, law, economics, biology, physics, and more — creating a truly interdisciplinary dialogue on AI and society.
+Recent locations include **Cambridge**, **Ljubljana**, and **Banz Abbey**. You can find a full list of our past editions and specific course materials in our [Courses](/courses/) section.
 
 ## Open Resources
 
