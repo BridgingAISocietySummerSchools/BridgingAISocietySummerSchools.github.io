@@ -84,7 +84,8 @@ Our courses are designed to be both **practically useful** and **thought-provoki
 
 Since 2019, our courses have been part of summer academies and workshops across Europe, often in collaboration with the *Studienstiftung des Deutschen Volkes* (German National Academic Foundation) and other academic partners.
 
-Recent locations include **Cambridge**, **Ljubljana**, and **Banz Abbey**. You can find a full list of our past editions and specific course materials in our [Courses](/courses/) section.
+Recent locations include **Cambridge, UK**, **Ljubljana, Slovenia**, and **Banz Abbey, Germany**.
+You can find a full list of our past editions and specific course materials in our [Courses](/courses/) section.
 
 ## Open Resources
 

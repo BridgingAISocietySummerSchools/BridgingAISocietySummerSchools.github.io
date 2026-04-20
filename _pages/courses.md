@@ -29,19 +29,19 @@ We adapt our courses to different academic settings and goals. Depending on the 
 
 ## 🏔️ Current & Past Editions
 
-- **[Obertauern 2026](/obertauern-2026/)**:
-Our upcoming flagship summer school. We explore the paradigm shift from classical machine learning to generative models and autonomous agents. Topics include Transformers, RAG, and the societal implications of increasingly autonomous systems.
+- 🇦🇹 **[Obertauern 2026, Austria](/obertauern-2026/)**:
+Our upcoming flagship summer school in the Austrian Alps. We explore the paradigm shift from classical machine learning to generative models and autonomous agents. Topics include Transformers, RAG, and the societal implications of increasingly autonomous systems.
 
-- **[Banz Abbey 2025](/banz-2025/)**:
+- 🇩🇪 **[Banz Abbey 2025, Germany](/banz-2025/)**:
 Summer academy with participants from the *College of Europe*.
 
-- **Ljubljana 2024**:
+- 🇸🇮 **Ljubljana 2024, Slovenia**:
 Joint program with students from the *Max Weber Program, Elite Network of Bavaria*.
 
-- **Koppelsberg 2021**:
+- 🇩🇪 **Koppelsberg 2021, Germany**:
 Interdisciplinary summer academy with participants from across Germany.
 
-- **Cambridge 2019**:
+- 🇬🇧 **Cambridge 2019, UK**:
 St. John’s College, Cambridge, with participants from Cambridge University.
 
 
