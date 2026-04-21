@@ -10,9 +10,6 @@ Welcome to the **Banz 2025 Machine Learning Workshop**, part of the summer schoo
 
 Whether you come from the natural sciences, social sciences, or the humanities, this interdisciplinary workshop is accessible, thought-provoking, and interactive. The goal is to make machine learning understandable and relevant, while encouraging reflection on how these technologies shape research and society.
 
-👉 Jump directly to:
-[Technical Topics](/banz-2025/technical/) | [Societal Topics](/banz-2025/societal/)
-
 ## 🧭 Course Structure
 
 The course consists of five interconnected components that blend foundational knowledge, interactive practice, and critical reflection:

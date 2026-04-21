@@ -4,6 +4,9 @@ description: "Discussion-based sessions from the Banz 2025 Machine Learning work
 permalink: /banz-2025/societal/
 sidebar:
   nav: "banz_2025_sidebar"
+toc: true
+toc_label: "Contents"
+toc_sticky: true
 ---
 
 This page outlines the themes and discussion questions for the **Societal Sessions at Banz 2025**, part of the Machine Learning workshop of the German Academic Scholarship Foundation. These sessions explore the social and ethical dimensions of AI and machine learning, including topics such as algorithmic bias, regulation, misinformation, and broader questions of responsibility. Each theme is designed for a 60-minute participant-led discussion with guiding questions and interdisciplinary perspectives.
@@ -37,8 +40,6 @@ But how does this approach compare to China’s more state-controlled framework 
 
 You are strongly encouraged to choose specific angles or case studies that you may find particularly relevant!
 
-[⬅ Back to Course Overview](/banz-2025/) &#124; [⬆ Back to top](#)
-
 
 ## 2. AI in Healthcare & Medicine – Ethical and Regulatory Concerns
 
@@ -69,8 +70,6 @@ This topic invites exploration of how AI is shaping modern medicine, and how eth
 
 You are strongly encouraged to choose specific angles or case studies that you may find particularly relevant!
 
-[⬅ Back to Course Overview](/banz-2025/) &#124; [⬆ Back to top](#)
-
 
 ## 3. AI for Fake News Generation and Detection
 
@@ -88,8 +87,6 @@ This topic invites you to explore how AI is weaponized for information warfare, 
 *   **Ethical Considerations:** What are the ethical dilemmas associated with AI-generated fake news? How can we balance freedom of speech with the need to combat harmful disinformation?
 
 You are strongly encouraged to choose specific angles or case studies that you may find particularly relevant!
-
-[⬅ Back to Course Overview](/banz-2025/) &#124; [⬆ Back to top](#)
 
 
 ## 4. Impact of AI and Automation on the Future of Work / Labour Markets
@@ -111,4 +108,4 @@ You are strongly encouraged to choose specific angles or case studies that you m
 
 ---
 
-[⬅ Back to Course Overview](/banz-2025/) &#124; [⬆ Back to top](#)
+[⬅ Back to Technical Topics](/banz-2025/technical/) &#124; [⬆ Back to Course Overview](/banz-2025/)

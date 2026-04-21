@@ -10,7 +10,7 @@ We are **Dr. Christoph Weisser** and **Dr. Knut Zoch**, two educators with backg
 
 Our formats are interactive, adaptable, and discussion-driven — ranging from short workshops to multi-day academies.
 
-<p align="center">
+<p class="text-center">
   <img src="/assets/img/logo.jpg" alt="Bridging AI and Society Banner" width="500">
 </p>
 

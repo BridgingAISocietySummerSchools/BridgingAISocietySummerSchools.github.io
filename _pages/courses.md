@@ -1,6 +1,5 @@
 ---
 title: "Courses"
-subtitle: "Curriculum, Formats, and Editions"
 description: "Explore our interdisciplinary machine learning curriculum, teaching approach, and past/upcoming course editions."
 permalink: /courses/
 author_profile: true
@@ -35,14 +34,11 @@ Our upcoming flagship summer school in the Austrian Alps. We explore the paradig
 - 🇩🇪 **[Banz Abbey 2025, Germany](/banz-2025/)**:
 Summer academy with participants from the *College of Europe*.
 
-- 🇸🇮 **Ljubljana 2024, Slovenia**:
-Joint program with students from the *Max Weber Program, Elite Network of Bavaria*.
+- 🇸🇮 Ljubljana 2024, Slovenia — Joint program with students from the *Max Weber Program, Elite Network of Bavaria*.
 
-- 🇩🇪 **Koppelsberg 2021, Germany**:
-Interdisciplinary summer academy with participants from across Germany.
+- 🇩🇪 Koppelsberg 2021, Germany — Interdisciplinary summer academy with participants from across Germany.
 
-- 🇬🇧 **Cambridge 2019, UK**:
-St. John’s College, Cambridge, with participants from Cambridge University.
+- 🇬🇧 Cambridge 2019, UK — St. John’s College, Cambridge, with participants from Cambridge University.
 
 
 ## 📚 Themes We Explore

@@ -96,5 +96,3 @@ All of our teaching materials are **open-source** and freely available on our [G
 - [**Coding Challenges**](https://github.com/BridgingAISocietySummerSchools/Coding-Project) – Short projects inspired by real-world AI applications
 
 Each repository includes setup instructions, example projects, and modular content blocks for educators and learners alike.
-
----

@@ -4,6 +4,9 @@ description: "Technical sessions from the Banz 2025 Machine Learning workshop �
 permalink: /banz-2025/technical/
 sidebar:
   nav: "banz_2025_sidebar"
+toc: true
+toc_label: "Contents"
+toc_sticky: true
 ---
 
 This page outlines the structure and content of the **Technical Sessions at Banz 2025**, part of the Machine Learning workshop of the German Academic Scholarship Foundation. These sessions cover major areas of machine learning, including classification, regression, decision trees, and neural networks. Each module is designed as a collaborative, discussion-based learning experience for an interdisciplinary audience.
@@ -42,8 +45,6 @@ The course delves into the following core Machine Learning paradigms:
 *   **Regression:** Predicting continuous numerical values.
 *   **Tree-based Methods & Ensembles:** Leveraging decision trees and combining multiple models for improved performance.
 *   **Neural Networks:** Understanding the fundamentals of deep learning architectures.
-
-[⬅ Back to Course Overview](/banz-2025/) &#124; [⬆ Back to top](#)
 
 
 ## Session 1: Classification
@@ -92,8 +93,6 @@ The course delves into the following core Machine Learning paradigms:
     *   **ROC/AUC:** Show a visual example of two ROC curves, one for a good model and one for a poor one, to illustrate how AUC helps in model selection.
     *   **Cross-Validation:** Use a simple diagram to explain how k-fold cross-validation works. You can use an analogy like having multiple practice exams to get a better sense of your true knowledge, rather than just one.
 
-[⬅ Back to Course Overview](/banz-2025/) &#124; [⬆ Back to top](#)
-
 
 ## Session 2: Regression
 
@@ -140,8 +139,6 @@ The course delves into the following core Machine Learning paradigms:
     *   **Feature Engineering:** From a 'date' column, you could create features like 'day of the week' or 'month', which might be more predictive.
     *   **Feature Selection:** In a medical diagnosis model, you might find that only a few key measurements are actually predictive of a disease, and you can build a simpler, more interpretable model by focusing on them.
 
-[⬅ Back to Course Overview](/banz-2025/) &#124; [⬆ Back to top](#)
-
 
 ## Session 3: Tree-based Methods & Ensembles
 
@@ -185,8 +182,6 @@ The course delves into the following core Machine Learning paradigms:
 *   **Examples to Consider:**
     *   Use the analogy of a group of students studying for an exam: bagging is like having each student study independently and then averaging their answers, while boosting is like having them study together, with each student focusing on the topics the others found difficult.
     *   Discuss how boosting is used in search ranking or ad recommendation systems.
-
-[⬅ Back to Course Overview](/banz-2025/) &#124; [⬆ Back to top](#)
 
 
 ## Session 4: Neural Networks
