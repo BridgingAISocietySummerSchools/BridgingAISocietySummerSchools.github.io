@@ -14,11 +14,7 @@ Our formats are interactive, adaptable, and discussion-driven — ranging from s
   <img src="/assets/img/logo.jpg" alt="Bridging AI and Society Banner" width="500">
 </p>
 
-## Our Mission
-
-We help participants build a clear understanding of core machine learning ideas, experiment hands-on with real-world data, and reflect on the societal, ethical, and regulatory implications of AI. By connecting technical knowledge with perspectives from diverse disciplines, we provide the mental models and practical experience needed to understand the current AI landscape.
-
-Learn more about [our curriculum and past editions](/courses/).
+Learn more about [our curriculum and past editions](/courses/) or [the team behind the project](/about/).
 
 
 ## Current Focus: Obertauern 2026 (Austria)
@@ -35,6 +31,3 @@ Following our successful school at Banz Abbey, Germany in 2025, we are now prepa
   </p>
 </div>
 
----
-
-For more about us — including team bios and philosophy — see the [About page](/about/).

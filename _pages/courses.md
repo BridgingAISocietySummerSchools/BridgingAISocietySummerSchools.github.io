@@ -1,47 +1,37 @@
 ---
 title: "Courses"
-description: "Explore our interdisciplinary machine learning curriculum, teaching approach, and past/upcoming course editions."
+description: "Explore our interdisciplinary machine learning courses — past and upcoming editions."
 permalink: /courses/
 author_profile: true
 ---
 
-We design and teach **interdisciplinary courses on machine learning (ML) and artificial intelligence (AI)**. Our programs combine **technical insight** with **societal reflection**, encouraging participants to explore both *how these systems work* and *what they mean for our world*.
+We design and teach **interdisciplinary courses on machine learning (ML) and artificial intelligence (AI)**, combining technical foundations with societal reflection.
 
+## Course Editions
 
-## 🧭 Our Approach
+<div class="course-grid">
+  <div class="course-card course-card--upcoming">
+    <div class="course-card-meta">🇦🇹 Austria &middot; 2026 &middot; <span class="course-status course-status--upcoming">Upcoming</span></div>
+    <h3><a href="/courses/obertauern-2026/">Obertauern 2026</a></h3>
+    <p>Our next flagship summer school in the Austrian Alps. The curriculum bridges classical ML with recent breakthroughs in generative AI and autonomous systems — including LLMs, agents, and the societal questions they raise.</p>
+    <a href="/courses/obertauern-2026/" class="btn btn--primary">View course →</a>
+  </div>
 
-Our teaching is built on three guiding principles that define every course we lead:
+  <div class="course-card course-card--past">
+    <div class="course-card-meta">🇩🇪 Germany &middot; 2025 &middot; <span class="course-status course-status--past">Completed</span></div>
+    <h3><a href="/courses/banz-2025/">Banz Abbey 2025</a></h3>
+    <p>Summer academy at Banz Abbey with participants from the <em>College of Europe</em>. Covered classification, regression, tree-based models, and neural networks — alongside discussion sessions on AI regulation, healthcare, misinformation, and the future of work.</p>
+    <a href="/courses/banz-2025/" class="btn btn--inverse">View course →</a>
+  </div>
+</div>
 
-- **Accessibility** — We make machine learning approachable for participants from diverse academic backgrounds. Concepts are introduced with clarity and intuition, without assuming prior technical knowledge.
-- **Active Learning** — Instead of passive lectures, we focus on interaction, experimentation, and discussion. Participants work with real examples and bring in perspectives from their own fields.
-- **Societal Perspective** — Technical ideas are always connected to broader questions. We explore the ethical, legal, and societal implications of AI alongside its methods.
+## Earlier Editions
 
+- 🇸🇮 **Ljubljana 2024, Slovenia** — Joint program with students from the *Max Weber Program, Elite Network of Bavaria*.
+- 🇩🇪 **Koppelsberg 2021, Germany** — Interdisciplinary summer academy with participants from across Germany.
+- 🇬🇧 **Cambridge 2019, UK** — St. John's College, Cambridge, with participants from Cambridge University.
 
-## 🛠️ Flexible Formats
-
-We adapt our courses to different academic settings and goals. Depending on the context, this may mean:
-
-- **Short Workshops** — Compact sessions providing a focused introduction.
-- **Multi-day Academies** — Intensive programs combining technical modules, practical exercises, and interdisciplinary discussions.
-- **Guest Lectures** — Thematic modules enriching existing university or scholarship curricula.
-
-
-## 🏔️ Current & Past Editions
-
-- 🇦🇹 **[Obertauern 2026, Austria](/courses/obertauern-2026/)**:
-Our upcoming flagship summer school in the Austrian Alps. We explore the paradigm shift from classical machine learning to generative models and autonomous agents. Topics include Transformers, RAG, and the societal implications of increasingly autonomous systems.
-
-- 🇩🇪 **[Banz Abbey 2025, Germany](/courses/banz-2025/)**:
-Summer academy with participants from the *College of Europe*.
-
-- 🇸🇮 Ljubljana 2024, Slovenia — Joint program with students from the *Max Weber Program, Elite Network of Bavaria*.
-
-- 🇩🇪 Koppelsberg 2021, Germany — Interdisciplinary summer academy with participants from across Germany.
-
-- 🇬🇧 Cambridge 2019, UK — St. John’s College, Cambridge, with participants from Cambridge University.
-
-
-## 📚 Themes We Explore
+## Themes We Explore
 
 The exact content of a course depends on the audience and duration. Common themes include:
 

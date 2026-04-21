@@ -12,7 +12,23 @@ Our project exists to bridge this gap. We bring **technical foundations** and **
 
 Our team believes that AI and machine learning education should not remain the domain of specialists alone. We deliver an approach that is **accessible** to all, **hands-on** by design, and deeply **critical** of the impact these technologies have on our world.
 
-Our courses are designed to be both **practically useful** and **thought-provoking**, equipping participants with skills and perspectives they can carry into their own fields. For a deeper look at our specific curriculum and guiding principles, see our [Courses](/courses/).
+Our courses are designed to be both **practically useful** and **thought-provoking**, equipping participants with skills and perspectives they can carry into their own fields.
+
+## Our Approach
+
+Our teaching is built on three guiding principles that define every course we lead:
+
+- **Accessibility** — We make machine learning approachable for participants from diverse academic backgrounds. Concepts are introduced with clarity and intuition, without assuming prior technical knowledge.
+- **Active Learning** — Instead of passive lectures, we focus on interaction, experimentation, and discussion. Participants work with real examples and bring in perspectives from their own fields.
+- **Societal Perspective** — Technical ideas are always connected to broader questions. We explore the ethical, legal, and societal implications of AI alongside its methods.
+
+## Flexible Formats
+
+We adapt our courses to different academic settings and goals. Depending on the context, this may mean:
+
+- **Short Workshops** — Compact sessions providing a focused introduction.
+- **Multi-day Academies** — Intensive programs combining technical modules, practical exercises, and interdisciplinary discussions.
+- **Guest Lectures** — Thematic modules enriching existing university or scholarship curricula.
 
 ## Who We Are
 

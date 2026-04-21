@@ -6,7 +6,7 @@ sidebar:
   nav: "obertauern_2026_sidebar"
 ---
 
-Welcome to the **Obertauern 2026 Machine Learning Workshop**, the upcoming iteration of our [interdisciplinary course program](/courses/banz-2025/). The school will take place in the mountains of **Obertauern, Austria**.
+Welcome to the **Obertauern 2026 Machine Learning Workshop**, the upcoming iteration of our interdisciplinary course program. The school will take place in the mountains of **Obertauern, Austria**.
 
 For this edition, we are developing a curriculum that bridges the most recent technical breakthroughs with critical societal reflection. While the final program is still being finalized, participants can expect a modular course structure covering three main pillars:
 

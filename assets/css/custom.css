@@ -74,7 +74,84 @@
   }
 }
 
+.course-grid {
+  margin: 1.5rem 0 2rem;
+}
+
+.course-card {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.1);
+  transition: transform .2s, box-shadow .2s;
+  border-top: 4px solid #ccc;
+}
+
+.course-card--upcoming {
+  border-top-color: #336699;
+}
+
+.course-card--past {
+  border-top-color: #888;
+}
+
+.course-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,.2);
+}
+
+.course-card-meta {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.course-card h3 {
+  margin: 0.25rem 0 0.75rem;
+  font-size: 1.25rem;
+}
+
+.course-card h3 a {
+  text-decoration: none;
+  color: #333;
+}
+
+.course-card h3 a:hover {
+  text-decoration: underline;
+}
+
+.course-card p {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.course-status {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.course-status--upcoming {
+  background: #e8f0f8;
+  color: #336699;
+}
+
+.course-status--past {
+  background: #f0f0f0;
+  color: #666;
+}
+
 @media (max-width: 480px) {
+  .course-card {
+    padding: 1rem;
+  }
   .author-card {
     padding: 1.0rem;
   }
