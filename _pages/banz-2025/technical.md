@@ -1,7 +1,7 @@
 ---
 title: "Technical Sessions at Banz 2025"
 description: "Technical sessions from the Banz 2025 Machine Learning workshop — collaborative modules on classification, regression, decision trees, and neural networks."
-permalink: /banz-2025/technical/
+permalink: /courses/banz-2025/technical/
 sidebar:
   nav: "banz_2025_sidebar"
 toc: true
@@ -228,4 +228,4 @@ The course delves into the following core Machine Learning paradigms:
 
 ---
 
-[⬅ Back to Course Overview](/banz-2025/) &#124; [⬆ Back to top](#)
+[⬆ Back to Course Overview](/courses/banz-2025/) &#124; [Continue to Societal Topics ➡](/courses/banz-2025/societal/)

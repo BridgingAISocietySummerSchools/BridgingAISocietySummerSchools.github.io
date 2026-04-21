@@ -30,7 +30,7 @@ Following our successful school at Banz Abbey, Germany in 2025, we are now prepa
   <p>Our upcoming summer school in the Austrian Alps will explore the shift from classical machine learning to recent breakthroughs like LLMs and Agents.</p>
   <p><strong>Sign-up deadline: 1 May 2026</strong></p>
   <p>
-    <a href="/obertauern-2026/"><strong><i class="fas fa-arrow-right"></i> Obertauern 2026 Course Website</strong></a><br>
+    <a href="/courses/obertauern-2026/"><strong><i class="fas fa-arrow-right"></i> Obertauern 2026 Course Website</strong></a><br>
     <a href="https://www.studienstiftung.de/kalender/programmlinien/detail/26012404" target="_blank" rel="noopener noreferrer"><strong><i class="fas fa-external-link-alt"></i> Official Studienstiftung announcement</strong></a>
   </p>
 </div>

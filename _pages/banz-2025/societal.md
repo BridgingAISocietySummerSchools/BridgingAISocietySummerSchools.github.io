@@ -1,7 +1,7 @@
 ---
 title: "Societal Sessions at Banz 2025"
 description: "Discussion-based sessions from the Banz 2025 Machine Learning workshop, covering algorithmic bias, AI regulation, misinformation, and ethics."
-permalink: /banz-2025/societal/
+permalink: /courses/banz-2025/societal/
 sidebar:
   nav: "banz_2025_sidebar"
 toc: true
@@ -108,4 +108,4 @@ You are strongly encouraged to choose specific angles or case studies that you m
 
 ---
 
-[⬅ Back to Technical Topics](/banz-2025/technical/) &#124; [⬆ Back to Course Overview](/banz-2025/)
+[⬅ Back to Technical Topics](/courses/banz-2025/technical/) &#124; [⬆ Back to Course Overview](/courses/banz-2025/)

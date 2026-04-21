@@ -10,8 +10,14 @@ banz_2025_sidebar:
   - title: "Banz 2025"
     children:
       - title: "Overview"
-        url: /banz-2025/
+        url: /courses/banz-2025/
       - title: "Technical Topics"
-        url: /banz-2025/technical/
+        url: /courses/banz-2025/technical/
       - title: "Societal Topics"
-        url: /banz-2025/societal/
+        url: /courses/banz-2025/societal/
+
+obertauern_2026_sidebar:
+  - title: "Obertauern 2026"
+    children:
+      - title: "Overview"
+        url: /courses/obertauern-2026/

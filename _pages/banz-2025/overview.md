@@ -1,7 +1,7 @@
 ---
 title: "Banz 2025 – Machine Learning Workshop"
 description: "Overview of the Banz 2025 workshop — a modular, hands-on introduction to machine learning and its societal impact for interdisciplinary audiences."
-permalink: /banz-2025/
+permalink: /courses/banz-2025/
 sidebar:
   nav: "banz_2025_sidebar"
 ---
@@ -40,7 +40,7 @@ Over four 75-minute sessions, we explore core machine learning paradigms that po
 
 Each session includes a brief instructor introduction, participant mini-presentations, and a structured discussion. The focus is on building intuition and insight — not mathematical depth — so that all participants can confidently interpret and apply ML techniques in their fields.
 
-➡️ **See the full [Technical Topics Overview](/banz-2025/technical/)**
+➡️ **See the full [Technical Topics Overview](/courses/banz-2025/technical/)**
 
 ---
 
@@ -103,7 +103,7 @@ Core themes include:
 
 Rather than seeking definitive answers, these sessions aim to sharpen critical thinking and connect technical understanding with societal impact.
 
-➡️ **See the full [Societal Topics Overview](/banz-2025/societal/)**
+➡️ **See the full [Societal Topics Overview](/courses/banz-2025/societal/)**
 
 ---
 
