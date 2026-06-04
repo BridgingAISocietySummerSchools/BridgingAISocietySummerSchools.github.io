@@ -19,15 +19,13 @@ Learn more about [our curriculum and past editions](/courses/) or [the team behi
 
 ## Current Focus: Obertauern 2026 (Austria)
 
-Following our successful school at Banz Abbey, Germany in 2025, we are now preparing for the next iteration in **Obertauern, Austria**. While this new course remains true to our core mission of bridging foundational ML and societal impact, we will also incorporate recent developments in generative AI and autonomous systems.
+Following our successful school at Banz Abbey, Germany in 2025, our next iteration takes place in **Obertauern, Austria**. This edition remains true to our core mission of bridging foundational ML and societal impact, while also incorporating recent developments in generative AI and autonomous systems.
 
 <div class="notice--info">
-  <p><strong>🏔️ Obertauern 2026: The Next School</strong></p>
-  <p>Our upcoming summer school in the Austrian Alps will explore the shift from classical machine learning to recent breakthroughs like LLMs and Agents.</p>
-  <p><strong>Sign-up deadline: 1 May 2026</strong></p>
+  <p><strong>🏔️ Obertauern 2026: Upcoming School</strong></p>
+  <p>Our summer school in the Austrian Alps will explore the shift from classical machine learning to recent breakthroughs like LLMs and Agents. Registration is now closed.</p>
   <p>
-    <a href="/courses/obertauern-2026/"><strong><i class="fas fa-arrow-right"></i> Obertauern 2026 Course Website</strong></a><br>
-    <a href="https://www.studienstiftung.de/kalender/programmlinien/detail/26012404" target="_blank" rel="noopener noreferrer"><strong><i class="fas fa-external-link-alt"></i> Official Studienstiftung announcement</strong></a>
+    <a href="/courses/obertauern-2026/"><strong><i class="fas fa-arrow-right"></i> Obertauern 2026 Course Website</strong></a>
   </p>
 </div>
 

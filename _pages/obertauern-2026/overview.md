@@ -21,12 +21,11 @@ We will dedicate significant time to discussing the consequences of these techno
 
 ---
 
-### 📅 Registration Information
+### 📅 Course Information
 
 <div class="notice--info">
-  <p>The course is part of the summer academy program of the <strong>Studienstiftung des Deutschen Volkes</strong>.</p>
-  <p><strong>Sign-up deadline: 1 May 2026</strong></p>
-  <p><a href="https://www.studienstiftung.de/kalender/programmlinien/detail/26012404" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--large" style="color: #f2f3f3;"><i class="fas fa-external-link-alt"></i> Official Announcement & Registration</a></p>
+  <p>The course is part of the summer academy program of the <strong>Studienstiftung des Deutschen Volkes</strong>. Registration is now closed.</p>
+  <p><a href="https://www.studienstiftung.de/kalender/programmlinien/detail/26012404" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Official Announcement</a></p>
 </div>
 
 We look forward to seeing you in Austria!
