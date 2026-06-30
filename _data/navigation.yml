@@ -21,3 +21,13 @@ obertauern_2026_sidebar:
     children:
       - title: "Overview"
         url: /courses/obertauern-2026/
+
+obertauern_2026_sidebar_draft:
+  - title: "Obertauern 2026"
+    children:
+      - title: "Overview"
+        url: /courses/obertauern-2026/draft/
+      - title: "Technical Topics"
+        url: /courses/obertauern-2026/technical/
+      - title: "Societal Topics"
+        url: /courses/obertauern-2026/societal/
