@@ -3,7 +3,7 @@ title: "Technical Sessions at Obertauern 2026"
 description: "Technical sessions from the Obertauern 2026 Machine Learning workshop — four collaborative modules covering supervised learning, model complexity, tree methods and neural networks, and modern AI including LLMs, RAG, and agentic systems."
 permalink: /courses/obertauern-2026/technical/
 sidebar:
-  nav: "obertauern_2026_sidebar_draft"
+  nav: "obertauern_2026_sidebar"
 toc: true
 toc_label: "Contents"
 toc_sticky: true

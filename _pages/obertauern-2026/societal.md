@@ -3,7 +3,7 @@ title: "Societal Sessions at Obertauern 2026"
 description: "Discussion-based sessions from the Obertauern 2026 Machine Learning workshop, covering AI regulation, healthcare ethics, misinformation, and the future of work."
 permalink: /courses/obertauern-2026/societal/
 sidebar:
-  nav: "obertauern_2026_sidebar_draft"
+  nav: "obertauern_2026_sidebar"
 toc: true
 toc_label: "Contents"
 toc_sticky: true
