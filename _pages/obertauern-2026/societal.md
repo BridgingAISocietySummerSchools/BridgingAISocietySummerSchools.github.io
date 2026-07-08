@@ -11,6 +11,8 @@ toc_sticky: true
 
 This page outlines the themes and discussion questions for the **Societal Sessions at Obertauern 2026**, part of the Machine Learning workshop of the German Academic Scholarship Foundation. These sessions explore the social and ethical dimensions of AI and machine learning — regulation, healthcare, misinformation, and the future of work. Each theme is designed as a participant-led discussion with guiding questions and interdisciplinary perspectives.
 
+Your group's job is not to lecture — it is to catalyse a 60-minute conversation that draws on the full disciplinary range of the room. The advice for running a session is the same for every group, so we give it once below. Each topic then adds only its own background, discussion points, and a concrete case to open with.
+
 ---
 
 ## 📚 Topics Covered
@@ -19,6 +21,24 @@ This page outlines the themes and discussion questions for the **Societal Sessio
 2. [AI in Healthcare & Medicine – Ethical and Regulatory Concerns](#2-ai-in-healthcare--medicine--ethical-and-regulatory-concerns)
 3. [AI for Fake News Generation and Detection](#3-ai-for-fake-news-generation-and-detection)
 4. [Impact of AI and Automation on the Future of Work](#4-impact-of-ai-and-automation-on-the-future-of-work)
+
+---
+
+## Running Your Session
+
+Every group has the same 60 minutes and the same goal: get the room talking. A structure that works well:
+
+*   **~10 min — framing:** One or two group members set up the topic — what's at stake and the two or three fault lines you want the room to focus on. Keep it tight; the room needs time to talk, not just listen.
+*   **~40 min — discussion:** Drive the conversation with your discussion points. Don't try to cover everything — pick the two or three the group finds genuinely contentious and let those run.
+*   **~10 min — synthesis:** Name the tensions that surfaced and what stayed unresolved, rather than smoothing it over. These topics rarely end in consensus — that's fine.
+
+A few things that make these sessions work, whichever topic you have:
+
+*   **Choose your angle.** You are strongly encouraged to focus on specific case studies or sub-questions you find relevant rather than surveying the whole field — engagement comes from specificity.
+*   **Open with a concrete case, not "what do you think?"** A specific scenario (we suggest one under each topic) gives everyone something to argue about straight away.
+*   **Draw in the whole room.** These topics reward disciplinary range — law, medicine, philosophy, economics, and the sciences each pull in different directions. Put those perspectives into dialogue rather than letting one dominate.
+*   **Push for specifics.** When the discussion drifts to "is this good or bad overall?", pull it back: which provision, for whom, compared to what alternative? And resist "the technology is inevitable" fatalism — ask *who* makes the choices and *what* alternatives exist.
+*   **Ground it in solid sources.** Build your framing on reputable, current material — a plain-language summary from an established institute, a regulator or standards body, or a well-documented case — rather than the first search result. We're happy to point you toward good sources for your topic if you ask.
 
 ---
 
@@ -37,8 +57,9 @@ How does this approach compare to China's more state-directed framework or the U
 *   **Global Influence:** Is the EU AI Act shaping regulation elsewhere — a "Brussels Effect" for AI? How are the US and China responding?
 *   **Fundamental Rights:** How does the Act interact with existing rights (privacy, non-discrimination)? Where might it fall short?
 
-You are strongly encouraged to choose specific angles or case studies you find particularly relevant!
+**Opening case:** *"A European employer uses an AI tool to score candidates' recorded video interviews for 'communication skills' and 'enthusiasm.' The vendor is based in the US and insists the tool is merely 'decision support.' Is this prohibited, high-risk, or limited-risk under the Act — and if the vendor sits outside the EU, who actually enforces the answer?"*
 
+---
 
 ## 2. AI in Healthcare & Medicine – Ethical and Regulatory Concerns
 
@@ -60,8 +81,9 @@ This topic invites exploration of how AI is reshaping medicine, and where ethics
 *   **Human-AI Collaboration:** Will AI replace clinicians or augment them? What happens to diagnostic skills if clinicians increasingly defer to models?
 *   **Regulatory Approval:** How do health regulators evaluate AI medical devices? What standards apply, and are they adequate for continuously updated models?
 
-You are strongly encouraged to choose specific angles or case studies you find particularly relevant!
+**Opening case:** *"A hospital deploys an AI model that predicts which patients will deteriorate and should be prioritised for intensive care. It was trained on data from a wealthier region and systematically under-flags patients from the hospital's poorer catchment area — but its recommendations are logged as the official basis for bed allocation. Who is accountable for the patients it overlooks, and should the hospital have deployed it at all without local validation?"*
 
+---
 
 ## 3. AI for Fake News Generation and Detection
 
@@ -78,8 +100,9 @@ This raises profound questions: How do we protect public discourse from automate
 *   **Media Literacy:** What can individuals do? How should education systems respond?
 *   **Ethical Tensions:** How do we balance free expression with the need to suppress harmful disinformation? Who decides what counts as harmful?
 
-You are strongly encouraged to choose specific angles or case studies you find particularly relevant!
+**Opening case:** *"Two days before an election, a voice clone of a party leader appears in a robocall telling supporters the vote has been moved to a different day; platforms take six hours to act. Separately, a detection tool wrongly flags a genuine campaign video as AI-generated, and it gets throttled. Which failure is worse — the fake that spread or the real content that was suppressed — and who should be trusted to make that call in real time?"*
 
+---
 
 ## 4. Impact of AI and Automation on the Future of Work
 
@@ -95,7 +118,7 @@ But the picture is not simply one of displacement. Some roles are being augmente
 *   **Policy Responses:** What are the arguments for and against policy interventions — retraining programmes, universal basic income, shorter working weeks, stronger labour protections, taxes on automation?
 *   **Workplace Surveillance and Autonomy:** How is AI being used to monitor workers — productivity tracking, performance evaluation, algorithmic management? What are the implications for autonomy and dignity at work?
 
-You are strongly encouraged to choose specific angles or case studies you find particularly relevant!
+**Opening case:** *"A logistics company rolls out an AI system that assigns tasks, sets the pace, and rates each worker's 'productivity' in real time. Output rises 15% and two supervisor roles are cut. Workers say the pace is relentless and the ratings are opaque; management calls it efficiency. Is anything actually wrong here — and if so, is the problem the job losses, the surveillance, or who captured the 15%?"*
 
 ---
 
