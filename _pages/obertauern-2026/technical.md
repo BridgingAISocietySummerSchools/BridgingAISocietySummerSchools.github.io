@@ -29,14 +29,16 @@ This page outlines the structure and content of the **Technical Sessions at Ober
 Sessions 1–3 follow a consistent 90-minute format:
 
 *   **Instructor Introduction (5–10 minutes):** A brief framing of the session's themes and how they connect to previous sessions.
-*   **Mini-Presentations (60 minutes):** Four student presentations of approximately 15 minutes each, covering one topic per slot. Presentations focus on conceptual understanding and real-world relevance — not mathematical derivations.
+*   **Topic slots (60 minutes):** Four topic slots of roughly 15 minutes each — about 10 minutes for one participant to introduce a topic, followed by discussion. The focus is conceptual understanding and real-world relevance — not mathematical derivations.
 *   **Discussion & Wrap-up (15–20 minutes):** Instructor-facilitated synthesis, cross-topic connections, and open questions.
 
-**Session 4 uses a modified format.** The first two topics (the paradigm shift from classical ML to foundation models, and how LLMs work) are delivered as a single extended instructor-led introduction (~20 minutes). This ensures the conceptual foundation is solid before students build on it. Three student presentations follow, covering what LLMs can and cannot do, retrieval-augmented generation, and agentic AI.
+**Session 4 uses a modified format.** The first two topics (the paradigm shift from classical ML to foundation models, and how LLMs work) are delivered as a single extended instructor-led introduction (~20 minutes). This ensures the conceptual foundation is solid before students build on it. Three student-led topics follow, covering what LLMs can and cannot do, retrieval-augmented generation, and agentic AI.
 
-### Mini-Presentations: Collaborative Learning
+### Topic Slots: Collaborative Learning
 
-Participants deliver short mini-presentations on specific sub-topics, working individually or in pairs. Topics are assigned in advance to allow thorough preparation. The goal is engagement and discussion, not performance — presenters are expected to teach their peers, not impress them.
+Participants introduce specific sub-topics to the group, working individually or in pairs. Topics are assigned in advance to allow thorough preparation. The goal is engagement and discussion, not performance — you are simply helping your peers into the topic, not delivering a polished talk.
+
+Each topic should end by **handing your anchor question to the room** — or another concrete question or dilemma the topic raises. The audience is expected to engage actively, not just listen: your peers will have read the same topic framing and should be ready to contribute. Aim for the last 5–10 minutes of your slot to be open conversation rather than one person talking. You don't need to resolve the question you pose — your job is to start the argument, not close it.
 
 
 ## Session 1: Learning from Data — Classification & Evaluation
@@ -56,6 +58,10 @@ Participants deliver short mini-presentations on specific sub-topics, working in
     *   Ecology: does this satellite image contain a particular land-cover type?
     *   A simple 2×2 confusion matrix for a spam filter — where would you rather have your false positives?
 
+*   **Your anchor question:** Why does a model with 99% accuracy sometimes tell us almost nothing useful?
+
+*   **You don't need to cover:** any formulas, or how to implement a confusion matrix in code. Focus on what each cell means in plain language and why different types of mistakes carry different real-world weight.
+
 ---
 
 ### 2. Beyond Accuracy: Precision, Recall & F1-Score
@@ -73,6 +79,10 @@ Participants deliver short mini-presentations on specific sub-topics, working in
     *   Rare disease screening (1 in 1000): a model that predicts "no disease" every time achieves 99.9% accuracy — and is completely useless.
     *   Contrast: for a spam filter, a few missed spam emails is tolerable; filtering a critical email is not.
 
+*   **Your anchor question:** Why is choosing an evaluation metric a values decision, not just a technical one?
+
+*   **You don't need to cover:** the formulas for precision, recall, or F1. If you show them on a slide, translate each one into plain English immediately. The core argument — that what you optimise for reflects what you care about — is more important than the arithmetic.
+
 ---
 
 ### 3. Robust Evaluation: ROC/AUC & Cross-Validation
@@ -88,6 +98,10 @@ Participants deliver short mini-presentations on specific sub-topics, working in
 *   **Examples to Consider:**
     *   A visual diagram of k-fold cross-validation: imagine five practice exams, each with a different subset of questions held back as the "real" test.
     *   Two ROC curves overlaid — one for a good model, one for a poor one — to show what a higher AUC looks like in practice.
+
+*   **Your anchor question:** How do we know whether a model actually works on data it has never seen?
+
+*   **You don't need to cover:** the mathematics behind AUC or the exact procedure for computing a ROC curve. Focus on the visual intuition and on why holding out data is non-negotiable for honest evaluation.
 
 ---
 
@@ -106,6 +120,11 @@ Participants deliver short mini-presentations on specific sub-topics, working in
     *   In ecology: a species distribution model trained only on museum specimen records will reflect where collectors went, not where the species actually lives.
     *   Feature engineering example: from a timestamp, extracting "hour of day" or "day of week" may be far more informative than the raw number.
 
+*   **Your anchor question:** What can a machine learning model never learn, no matter how sophisticated the algorithm?
+
+*   **You don't need to cover:** data preprocessing techniques or cleaning workflows. Focus on the conceptual argument: what the model can learn is bounded by what the data contains — not by the algorithm's intelligence.
+
+---
 
 ## Session 2: Regression & Model Complexity
 
@@ -125,6 +144,10 @@ Participants deliver short mini-presentations on specific sub-topics, working in
     *   Estimating income from years of education.
     *   A scatter plot showing three lines — one too steep, one too shallow, one just right — to motivate the idea of a best fit.
 
+*   **Your anchor question:** What does it actually mean for an algorithm to "learn" from data?
+
+*   **You don't need to cover:** matrix algebra, the normal equations, or gradient descent in detail (Session 4 revisits the optimisation idea at scale). A scatter plot with a best-fit line and the intuition of "minimising the total gap between predictions and reality" carries the whole argument.
+
 ---
 
 ### 6. Overfitting & Underfitting: The Generalisation Problem
@@ -140,6 +163,10 @@ Participants deliver short mini-presentations on specific sub-topics, working in
 *   **Examples to Consider:**
     *   The student analogy: memorising practice exam answers (overfitting) vs. not studying enough (underfitting) vs. actually understanding the material.
     *   A visual example with polynomials of increasing degree fitted to the same scatter plot.
+
+*   **Your anchor question:** Why is a model that perfectly explains past data often useless for predicting the future?
+
+*   **You don't need to cover:** the mathematical decomposition of bias and variance. The visual intuition — a wiggly curve that fits every training point vs. a straight line that misses the pattern vs. a curve that captures it — makes the whole argument without any equations.
 
 ---
 
@@ -157,6 +184,10 @@ Participants deliver short mini-presentations on specific sub-topics, working in
     *   Lasso applied to a genomics dataset with thousands of potential gene predictors: it automatically zeroes out the uninformative ones.
     *   The analogy of a "simplicity budget": the model has to spend complexity wisely, not just fit every data point.
 
+*   **Your anchor question:** How do you prevent a model from becoming so "clever" about past data that it fails on future data?
+
+*   **You don't need to cover:** the penalty term formulas or how regularisation is implemented mathematically. The key intuition is: we add a cost to complexity, so the model learns to stay simple unless the data strongly justifies more. For Lasso, the practical punchline is that some variables get zeroed out entirely — the model chooses which features to ignore.
+
 ---
 
 ### 8. Feature Engineering & Feature Selection in Practice
@@ -173,6 +204,11 @@ Participants deliver short mini-presentations on specific sub-topics, working in
     *   In ecology: from GPS tracking data, derive movement speed, habitat type at location, and time since last rest — all potentially more predictive than raw coordinates.
     *   A side-by-side comparison: same algorithm, poor features vs. well-engineered features. The difference is often dramatic.
 
+*   **Your anchor question:** Where does human expertise actually enter a machine learning pipeline — and why does it matter more than the choice of algorithm?
+
+*   **You don't need to cover:** implementation details or code. The examples already in this guide — extracting hour-of-day from a timestamp, deriving movement speed from GPS coordinates — are concrete enough to anchor the whole topic without touching a line of code.
+
+---
 
 ## Session 3: Trees, Ensembles & Neural Networks
 
@@ -191,6 +227,10 @@ Participants deliver short mini-presentations on specific sub-topics, working in
     *   Random Forests for land-cover classification from satellite imagery.
     *   The "wisdom of the crowd" analogy: a diverse group of independent experts, each slightly wrong in different ways, averages out their individual errors.
 
+*   **Your anchor question:** Why does combining many imperfect models often outperform any single well-trained one?
+
+*   **You don't need to cover:** Gini impurity, information gain, or the mathematics of how splits are chosen. The logic of the tree structure — "ask questions to divide the data into purer groups" — and the intuition of why averaging over many diverse trees helps are the two things your peers need to walk away with.
+
 ---
 
 ### 10. Boosting & the Bias-Variance Tradeoff Revisited
@@ -206,6 +246,10 @@ Participants deliver short mini-presentations on specific sub-topics, working in
 *   **Examples to Consider:**
     *   The study group analogy: in bagging, everyone studies independently and you average their answers; in boosting, each person focuses on the questions the group got wrong in the last round.
     *   Gradient boosting used in search ranking, ad click prediction, and clinical risk scoring.
+
+*   **Your anchor question:** What is the difference between making many independent guesses and learning from your mistakes — and why does that distinction matter for how models are built?
+
+*   **You don't need to cover:** the gradient boosting loss function derivation, or how XGBoost is implemented. The core distinction to convey is sequential vs. parallel: one method builds trees independently and averages, the other builds each new tree specifically to fix what the previous ones got wrong.
 
 ---
 
@@ -223,6 +267,10 @@ Participants deliver short mini-presentations on specific sub-topics, working in
     *   A clear diagram with three layers and a handful of neurons — the simplest possible visual.
     *   The dimmer-switch analogy for activation functions: not just on or off, but a continuous degree of activation.
     *   Connect back to linear regression: a single neuron with no activation function *is* linear regression. Depth and non-linearity are what make neural networks more expressive.
+
+*   **Your anchor question:** What is actually happening inside a neural network when it produces an output — and is "black box" an accurate description?
+
+*   **You don't need to cover:** the weight matrix mathematics or the specific functional forms of activation functions. A clear diagram and the structural logic — data flows in, gets transformed layer by layer, a prediction comes out — is everything your peers need.
 
 ---
 
@@ -242,14 +290,19 @@ Participants deliver short mini-presentations on specific sub-topics, working in
     *   Navigating a hilly landscape in the dark: gradient descent means always stepping downhill; more sophisticated optimisers have better strategies for avoiding local traps.
     *   For dropout: the team analogy — practising with random players on the bench forces everyone to be capable of covering for each other.
 
+*   **Your anchor question:** How does a network with millions of parameters know which ones to adjust — and by how much — after making a mistake?
+
+*   **You don't need to cover:** the chain rule or partial derivatives. The key intuition is that error flows backwards through the network to distribute "blame" across the weights, and training means iteratively nudging each weight in the direction that reduces that error. The maths formalises this; the intuition is what matters here.
+
+---
 
 ## Session 4: Modern AI — Foundation Models, LLMs, RAG & Agents
 
-*This session uses a modified format: an extended instructor-led introduction covers the conceptual foundations, followed by three student mini-presentations.*
+*This session uses a modified format: an extended instructor-led introduction covers the conceptual foundations, followed by three student-led topics.*
 
 ### Instructor Introduction (~20 minutes): The Paradigm Shift & How LLMs Work
 
-This block is delivered by the instructors as a connected narrative — not split across student presentations — to ensure the foundation is solid before students build on it.
+This block is delivered by the instructors as a connected narrative — not split across student-led topics — to ensure the foundation is solid before students build on it.
 
 **From supervised learning to foundation models:**
 Everything in Sessions 1–3 assumed we have labelled examples for a specific task. Foundation models break this assumption. They are pretrained on enormous amounts of unlabelled data — effectively the internet — and emerge with broad, general capabilities. Key concepts:
@@ -284,6 +337,10 @@ Everything in Sessions 1–3 assumed we have labelled examples for a specific ta
     *   A researcher asking about publications from the last year — the model confidently discusses papers that don't exist.
     *   Contrast: asking an LLM to help draft an email or restructure an argument — it excels here because fluency is the goal, not factual lookup.
 
+*   **Your anchor question:** If a language model sounds completely confident, how do you know whether to trust it?
+
+*   **You don't need to cover:** how LLMs work technically — the instructor introduction already handles that. Focus entirely on behavioural properties: what they do reliably, where they fail in specific and predictable ways, and what that means for how you use them.
+
 ---
 
 ### 14. Retrieval-Augmented Generation (RAG)
@@ -300,6 +357,10 @@ Everything in Sessions 1–3 assumed we have labelled examples for a specific ta
     *   A legal assistant that retrieves relevant case law before answering a question, rather than relying on what the model may have memorised.
     *   A scientific literature tool that retrieves PubMed abstracts before summarising evidence on a clinical question.
     *   The open-book vs. closed-book exam analogy: RAG gives the model access to the relevant "book" at query time.
+
+*   **Your anchor question:** How do you make a language model reliable enough to use in a domain where factual accuracy actually matters?
+
+*   **You don't need to cover:** vector database implementations, embedding dimensions, or cosine similarity. The core architecture — retrieve relevant documents at query time, inject them into the prompt, generate a response grounded in that retrieved text — is the argument. The open-book exam analogy carries it.
 
 ---
 
@@ -318,6 +379,10 @@ Everything in Sessions 1–3 assumed we have labelled examples for a specific ta
     *   A research assistant agent: given a question, it searches papers, extracts relevant passages, synthesises an answer, and cites its sources — all in an automated loop.
     *   A coding agent that writes code, runs it, reads the error, fixes the bug, and repeats.
     *   Multi-agent: a writing team where one agent drafts, one fact-checks, and one edits — each with a specialised role.
+
+*   **Your anchor question:** What changes — practically and ethically — when an AI system doesn't just answer questions but takes actions in the world?
+
+*   **You don't need to cover:** specific agent frameworks or any code. Focus on the conceptual loop — plan, act, observe, iterate — and on what becomes possible (and risky) when you add external tools and persistent memory.
 
 ---
 
