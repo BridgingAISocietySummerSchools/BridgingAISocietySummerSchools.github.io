@@ -27,3 +27,6 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# Local AI assistant notes (kept out of the published site and the repo)
+CLAUDE.md
