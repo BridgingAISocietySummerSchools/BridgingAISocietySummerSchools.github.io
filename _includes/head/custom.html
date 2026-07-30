@@ -4,4 +4,40 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
 <meta name="apple-mobile-web-app-title" content="Bridging AI and Society" />
 <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+
+<!-- Dark theme (theme's own "dark" skin). Defaults to following the OS so it
+     still works without JS; the footer toggle overrides `media` to force one. -->
+<link id="theme-dark-css" rel="stylesheet" media="(prefers-color-scheme: dark)"
+      href="{{ '/assets/css/dark.css' | relative_url }}">
+
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+<script>
+  // Inline and synchronous on purpose: applies a stored theme choice before the
+  // first paint, otherwise forced-dark visitors get a flash of the light theme.
+  (function () {
+    var root = document.documentElement;
+    var link = document.getElementById("theme-dark-css");
+
+    window.setSiteTheme = function (mode) {
+      if (mode === "dark") {
+        root.setAttribute("data-theme", "dark");
+        link.media = "all";
+      } else if (mode === "light") {
+        root.setAttribute("data-theme", "light");
+        link.media = "not all";
+      } else {
+        // Follow the operating system.
+        root.removeAttribute("data-theme");
+        link.media = "(prefers-color-scheme: dark)";
+      }
+    };
+
+    try {
+      var stored = localStorage.getItem("theme");
+      if (stored === "dark" || stored === "light") window.setSiteTheme(stored);
+    } catch (e) {
+      // Private mode / storage disabled: fall back to the OS preference.
+    }
+  })();
+</script>

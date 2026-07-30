@@ -1,3 +1,59 @@
+<div class="theme-toggle-wrap">
+  <button type="button" id="theme-toggle" class="theme-toggle" hidden>
+    <i class="theme-toggle-icon fas fa-moon" aria-hidden="true"></i>
+    <span class="theme-toggle-label">Dark mode</span>
+  </button>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const button = document.getElementById("theme-toggle");
+  const icon = button.querySelector(".theme-toggle-icon");
+  const label = button.querySelector(".theme-toggle-label");
+  const osDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+  // Only usable with JS, so it stays hidden in the markup until now.
+  button.hidden = false;
+
+  function effectiveTheme() {
+    const forced = document.documentElement.getAttribute("data-theme");
+    if (forced === "dark" || forced === "light") return forced;
+    return osDark.matches ? "dark" : "light";
+  }
+
+  function render() {
+    const isDark = effectiveTheme() === "dark";
+    // The button offers the theme you'd switch *to*.
+    icon.className = "theme-toggle-icon fas " + (isDark ? "fa-sun" : "fa-moon");
+    label.textContent = isDark ? "Light mode" : "Dark mode";
+    button.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
+    button.setAttribute("aria-pressed", String(isDark));
+  }
+
+  button.addEventListener("click", function () {
+    const next = effectiveTheme() === "dark" ? "light" : "dark";
+    try {
+      // If the choice matches the OS anyway, drop it and follow the OS again.
+      if (next === (osDark.matches ? "dark" : "light")) {
+        localStorage.removeItem("theme");
+        window.setSiteTheme(null);
+      } else {
+        localStorage.setItem("theme", next);
+        window.setSiteTheme(next);
+      }
+    } catch (e) {
+      window.setSiteTheme(next);
+    }
+    render();
+  });
+
+  // Keep the label honest if the OS flips while we're following it.
+  osDark.addEventListener("change", render);
+
+  render();
+});
+</script>
+
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const DOMAIN = "bridgingaiandsociety.org";
