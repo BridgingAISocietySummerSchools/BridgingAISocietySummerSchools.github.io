@@ -1,17 +1,84 @@
+/* ==========================================================================
+   Custom components on top of Minimal Mistakes.
+
+   No colour literals in this file: every colour is a --bas-* custom property
+   defined in _sass/_bas-theme.scss, which is compiled once per skin. Light and
+   dark therefore need no branching here — the active stylesheet supplies the
+   right values. If you need a new colour, add a token there.
+   ========================================================================== */
+
+/* ==========================================================================
+   Theme toggle (footer)
+   ========================================================================== */
+
+/* Aligns with the footer's links and copyright line below it. */
+.theme-toggle-wrap {
+  margin-bottom: 1em;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  padding: 0.4em 0.9em;
+  font-family: inherit;
+  font-size: 0.75em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: inherit;
+  background: transparent;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s, background-color 0.2s;
+}
+
+/* display: inline-flex would otherwise defeat the hidden attribute */
+.theme-toggle[hidden] {
+  display: none;
+}
+
+/* The theme colours footer icons via `.page__footer .fas` using the skin's
+   text colour — black on the contrast skin's black footer. The skin patches
+   this for its own social icons only, so do the same for ours. */
+.page__footer .theme-toggle .theme-toggle-icon {
+  color: inherit;
+}
+
+/* Tint from the inherited footer text colour rather than a fixed white, so the
+   hover state works whatever the skin's footer is. Browsers without color-mix
+   simply get the opacity change. */
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  opacity: 1;
+  background: color-mix(in srgb, currentColor 12%, transparent);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* ==========================================================================
+   Author cards
+   ========================================================================== */
+
 .author-card {
-  background: #fff;
+  background: var(--bas-surface);
   padding: 1.5rem 2.0rem;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,.1);
+  box-shadow: 0 4px 12px var(--bas-shadow);
   transition: transform .2s, box-shadow .2s;
-  color: #333;
+  color: var(--bas-body);
   line-height: 1.55;
   margin-bottom: 1.5rem;
 }
 
 .author-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 18px rgba(0,0,0,.2);
+  box-shadow: 0 6px 18px var(--bas-shadow-strong);
 }
 
 .author-card p {
@@ -35,13 +102,13 @@
 .author-card-header h3 {
   margin: 0.25rem 0;
   font-size: 1.25rem;
-  color: #333;
+  color: var(--bas-heading);
 }
 
 .author-card-header p {
   font-size: 1.0rem;
   font-style: italic;
-  color: #666;
+  color: var(--bas-muted);
   margin-bottom: 0.25rem;
 }
 
@@ -74,36 +141,48 @@
   }
 }
 
+/* Closing note under the author grid on about.md */
+.author-grid-note {
+  text-align: center;
+  margin-top: 2rem;
+  font-style: italic;
+  color: var(--bas-muted);
+}
+
+/* ==========================================================================
+   Course cards
+   ========================================================================== */
+
 .course-grid {
   margin: 1.5rem 0 2rem;
 }
 
 .course-card {
-  background: #fff;
+  background: var(--bas-surface);
   padding: 1.5rem 2rem;
   margin-bottom: 1.5rem;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,.1);
+  box-shadow: 0 4px 12px var(--bas-shadow);
   transition: transform .2s, box-shadow .2s;
-  border-top: 4px solid #ccc;
+  border-top: 4px solid var(--bas-rule);
 }
 
 .course-card--upcoming {
-  border-top-color: #336699;
+  border-top-color: var(--bas-info);
 }
 
 .course-card--past {
-  border-top-color: #888;
+  border-top-color: var(--bas-neutral);
 }
 
 .course-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 18px rgba(0,0,0,.2);
+  box-shadow: 0 6px 18px var(--bas-shadow-strong);
 }
 
 .course-card-meta {
   font-size: 0.85rem;
-  color: #666;
+  color: var(--bas-muted);
   margin-bottom: 0.5rem;
 }
 
@@ -114,7 +193,7 @@
 
 .course-card h3 a {
   text-decoration: none;
-  color: #333;
+  color: var(--bas-heading);
 }
 
 .course-card h3 a:hover {
@@ -125,7 +204,7 @@
   font-size: 0.95rem;
   line-height: 1.55;
   margin-bottom: 1rem;
-  color: #444;
+  color: var(--bas-body);
 }
 
 .course-status {
@@ -139,13 +218,13 @@
 }
 
 .course-status--upcoming {
-  background: #e8f0f8;
-  color: #336699;
+  background: var(--bas-info-soft);
+  color: var(--bas-info-soft-text);
 }
 
 .course-status--past {
-  background: #f0f0f0;
-  color: #666;
+  background: var(--bas-neutral-soft);
+  color: var(--bas-neutral-soft-text);
 }
 
 @media (max-width: 480px) {

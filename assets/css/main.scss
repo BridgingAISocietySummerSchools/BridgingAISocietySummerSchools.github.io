@@ -1,0 +1,12 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough).
+# This file overrides the remote theme's assets/css/main.scss so that we can
+# ship a second, dark-skinned stylesheet alongside it (see dark.scss).
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+@import "bas-theme"; // our palette bridge — must come last

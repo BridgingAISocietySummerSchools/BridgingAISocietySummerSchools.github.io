@@ -1,0 +1,101 @@
+/* ==========================================================================
+   Bridging AI & Society — palette bridge
+
+   Imported by BOTH assets/css/main.scss and assets/css/dark.scss, after the
+   skin and the theme partials. Every value below is derived from the *active
+   skin's* Sass variables, so this file is compiled twice — once with the
+   light skin's palette, once with the dark skin's — and each copy exports the
+   matching values. custom.css then consumes the custom properties and needs
+   no light/dark branching of its own.
+
+   Add colours here, never as hex in custom.css.
+   ========================================================================== */
+
+/* True when the active skin is a light one; used for the few values that
+   can't be mixed out of the palette (shadow strength, color-scheme). */
+$bas-is-light: lightness($background-color) > 50%;
+
+/* Cards sit slightly above the page. Mixing toward white is a no-op on a
+   white background (light skins keep their shadow-only separation) and lifts
+   a dark background just enough to read as a raised surface. */
+$bas-surface: mix(#fff, $background-color, 8%);
+
+:root {
+  color-scheme: #{if($bas-is-light, light, dark)};
+
+  /* Surfaces */
+  --bas-surface: #{$bas-surface};
+  --bas-rule: #{$border-color};
+
+  /* Text — mixing text toward the background gives a hierarchy that holds up
+     on light and dark skins alike, which $muted-text-color does not (the dark
+     skin leaves it lighter than its own body text). */
+  --bas-heading: #{$text-color};
+  --bas-body: #{mix($background-color, $text-color, 15%)};
+  --bas-muted: #{mix($background-color, $text-color, 30%)};
+  --bas-neutral: #{mix($background-color, $text-color, 50%)};
+
+  /* Accents, straight from the theme's semantic palette */
+  --bas-accent: #{$primary-color};
+  --bas-info: #{$info-color};
+
+  /* Soft "highlight" fill + matching text, using the same mix the theme uses
+     for its notice blocks so our badges sit in the same visual family. */
+  --bas-info-soft: #{mix($background-color, $info-color, $notice-background-mix)};
+  --bas-info-soft-text: #{mix($text-color, $info-color, 40%)};
+  --bas-neutral-soft: #{mix($text-color, $bas-surface, 8%)};
+  /* Deliberately not --bas-muted: on the neutral fill that only reaches
+     4.2:1 in dark, short of AA for the small bold text it carries. */
+  --bas-neutral-soft-text: #{mix($text-color, $bas-surface, 75%)};
+
+  --bas-shadow: #{rgba(#000, if($bas-is-light, 0.1, 0.45))};
+  --bas-shadow-strong: #{rgba(#000, if($bas-is-light, 0.2, 0.6))};
+}
+
+/* ==========================================================================
+   Notice blocks
+
+   Two fixes, both applied at `.page__content` specificity so that whichever
+   of main.css / dark.css is active wins:
+
+   1. The contrast skin raises notice text colour to `.page__content .notice…`,
+      which outranks the dark stylesheet's plain `.notice…` rule — dark mode
+      ended up with black text on a dark tinted background.
+   2. The theme colours notice links `mix(#000, $notice-color, 10%)`, a fixed
+      darkening that is close to unreadable on a dark tinted background.
+      Mixing toward $text-color instead moves the link *away* from the fill in
+      whichever direction the skin needs.
+   ========================================================================== */
+
+@mixin bas-notice($notice-color) {
+  color: $text-color;
+
+  a {
+    color: mix($text-color, $notice-color, 40%);
+
+    &:hover {
+      color: mix($text-color, $notice-color, 65%);
+    }
+  }
+}
+
+.page__content {
+  .notice {
+    @include bas-notice($light-gray);
+  }
+  .notice--primary {
+    @include bas-notice($primary-color);
+  }
+  .notice--info {
+    @include bas-notice($info-color);
+  }
+  .notice--warning {
+    @include bas-notice($warning-color);
+  }
+  .notice--success {
+    @include bas-notice($success-color);
+  }
+  .notice--danger {
+    @include bas-notice($danger-color);
+  }
+}

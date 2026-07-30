@@ -1,0 +1,13 @@
+---
+# Dark counterpart to main.scss. Compiled from the theme's own "dark" skin so
+# the palette stays in sync with Minimal Mistakes rather than being hand-rolled.
+# Loaded conditionally in _includes/head/custom.html and toggled by the footer
+# theme switcher.
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/dark"; // skin
+@import "minimal-mistakes"; // main partials
+@import "bas-theme"; // our palette bridge — must come last
