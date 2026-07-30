@@ -92,7 +92,7 @@ We adapt our courses to different academic settings and goals. Depending on the 
   </div>
 </div>
 
-<div style="text-align: center; margin-top: 2rem; font-style: italic; color: #666;">
+<div class="author-grid-note">
   We look forward to learning and exploring with you!
 </div>
 
