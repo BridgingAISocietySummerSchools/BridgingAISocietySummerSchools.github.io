@@ -24,6 +24,11 @@ Our formats are interactive, adaptable, and discussion-driven — ranging from s
 
 Learn more about [our curriculum and past editions](/courses/) or [the team behind the project](/about/).
 
+<p class="bas-contact">
+  <i class="fas fa-envelope" aria-hidden="true"></i>
+  <span>Or get in touch with us: <a href="#" class="email-link" data-user="info" aria-label="Email Bridging AI &amp; Society"><span class="email-text">[email protected]</span></a></span>
+</p>
+
 
 ## Current Focus: Obertauern 2026 (Austria)
 

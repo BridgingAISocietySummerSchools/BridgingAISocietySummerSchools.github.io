@@ -149,6 +149,22 @@
   color: var(--bas-muted);
 }
 
+/* Contact line on the landing page. Set off from the prose by an accent rule
+   rather than a fill, so it reads as an aside without becoming a box. */
+.page__content p.bas-contact {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 1.5rem 0 0;
+  padding-left: 0.9em;
+  border-left: 3px solid var(--bas-accent);
+  font-size: 0.95rem;
+}
+
+.bas-contact a {
+  font-weight: bold;
+}
+
 /* ==========================================================================
    Course cards
    ========================================================================== */
