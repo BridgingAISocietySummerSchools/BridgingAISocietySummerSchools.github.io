@@ -16,7 +16,6 @@ timezone: "Europe/Zurich"
 
 author:
   name: "Bridging AI & Society"
-  avatar: "/assets/img/logo.jpg"
   bio: "Interdisciplinary Machine Learning Education by Dr. Christoph Weisser and Dr. Knut Zoch"
   links:
     - label: "About Us"

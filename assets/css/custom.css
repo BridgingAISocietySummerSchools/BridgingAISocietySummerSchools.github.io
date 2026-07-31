@@ -324,3 +324,17 @@
   white-space: nowrap;
 }
 
+/* Re-stated at the theme's specificity: `.greedy-nav a` sets display: block. */
+.greedy-nav a.site-title {
+  display: inline-flex;
+  align-items: center;
+}
+
+.author__name .bas-logo--profile {
+  font-size: 1.15em;
+}
+
+.author__name {
+  margin-bottom: 0.35em;
+}
+
