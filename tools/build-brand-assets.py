@@ -69,7 +69,7 @@ def og_svg():
         letter-spacing="-2">Bridging AI <tspan fill="{ACCENT}">&amp;</tspan> Society</text>
   <rect x="96" y="360" width="72" height="7" rx="3.5" fill="{ACCENT}"/>
   <text x="96" y="436" font-size="32" fill="{MUTED}">Interdisciplinary machine learning education</text>
-  <text x="96" y="482" font-size="32" fill="{MUTED}">Dr. Christoph Weisser &amp; Dr. Knut Zoch</text>
+  <text x="96" y="482" font-size="32" fill="{MUTED}">by Prof. Dr. Christoph Weisser &amp; Dr. Knut Zoch</text>
 </svg>'''
 
 

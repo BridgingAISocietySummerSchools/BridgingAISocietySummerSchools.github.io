@@ -18,7 +18,7 @@ header:
 
 <p class="bas-hero-tagline">{{ site.subtitle }}</p>
 
-We are **Dr. Christoph Weisser** and **Dr. Knut Zoch**, two educators with backgrounds in applied statistics and experimental physics. Together, we design and teach interdisciplinary courses and workshops that explore both the **technical foundations** of machine learning and the **societal questions** raised by artificial intelligence.
+We are **Prof. Dr. Christoph Weisser** and **Dr. Knut Zoch**, two educators with backgrounds in applied statistics and experimental physics. Together, we design and teach interdisciplinary courses and workshops that explore both the **technical foundations** of machine learning and the **societal questions** raised by artificial intelligence.
 
 Our formats are interactive, adaptable, and discussion-driven — ranging from short workshops to multi-day academies.
 

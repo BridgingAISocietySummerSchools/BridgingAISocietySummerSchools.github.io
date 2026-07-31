@@ -1,6 +1,6 @@
 ---
 title: "About Our Team & Mission"
-description: "Learn about the team behind Bridging AI & Society. Dr. Christoph Weisser and Dr. Knut Zoch lead interdisciplinary AI and machine learning education."
+description: "Learn about the team behind Bridging AI & Society. Prof. Dr. Christoph Weisser and Dr. Knut Zoch lead interdisciplinary AI and machine learning education."
 permalink: /about/
 ---
 
@@ -35,7 +35,7 @@ We adapt our courses to different academic settings and goals. Depending on the 
 <div class="author-card">
   <div class="author-card-header">
     <div class="author-card-avatar">
-      <img src="{{ '/assets/img/headshot-christoph.jpg' | relative_url }}" alt="Dr. Christoph Weisser" loading="lazy">
+      <img src="{{ '/assets/img/headshot-christoph.jpg' | relative_url }}" alt="Prof. Dr. Christoph Weisser" loading="lazy">
     </div>
     <div>
       <h3>Prof. Dr. Christoph Weisser</h3>

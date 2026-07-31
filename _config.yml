@@ -4,7 +4,7 @@ title_separator: " | "
 # which has to be kept in step by hand.
 subtitle: "Interdisciplinary machine learning education"
 copyright: Christoph Weisser, Knut Zoch
-description: "Interdisciplinary machine learning courses by Dr. Christoph Weisser and Dr. Knut Zoch — hands-on workshops on technical foundations and societal impact."
+description: "Interdisciplinary machine learning courses by Prof. Dr. Christoph Weisser and Dr. Knut Zoch — hands-on workshops on technical foundations and societal impact."
 
 url: "https://bridgingaiandsociety.org"
 repository: "bridgingaiandsociety/bridgingaiandsociety.github.io"
@@ -22,7 +22,7 @@ og_image: "/assets/img/og-card.png"
 author:
   name: "Bridging AI & Society"
   # Opens with `subtitle` above verbatim; keep the two in step.
-  bio: "Interdisciplinary machine learning education by Dr. Christoph Weisser and Dr. Knut Zoch"
+  bio: "Interdisciplinary machine learning education by Prof. Dr. Christoph Weisser and Dr. Knut Zoch"
   links:
     - label: "About Us"
       icon: "fas fa-fw fa-users"
