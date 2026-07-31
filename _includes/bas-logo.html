@@ -1,0 +1,27 @@
+{%- comment -%}
+  The brand logo: the mark beside the name on two fixed lines —
+
+      ◣  Bridging AI
+         & Society
+
+  Used by the masthead and the author profile. The landing-page hero does not
+  use it; that one composes bas-mark.html + bas-wordmark.html by hand.
+
+  Sizing is .bas-logo in assets/css/custom.css. The break falls on site.title's
+  ampersand; a title without " & " sets on one line.
+
+    {% include bas-logo.html %}
+    {% include bas-logo.html class="p-name" %}
+{%- endcomment -%}
+{%- assign bas_parts = site.title | split: " & " -%}
+<span class="bas-logo{% if include.class %} {{ include.class }}{% endif %}">
+  {%- include bas-mark.html crop="tight" -%}
+  <span class="bas-logo__text">
+    {%- if bas_parts.size == 2 -%}
+      <span class="bas-logo__line">{{ bas_parts[0] }}</span>
+      <span class="bas-logo__line"><span class="bas-lockup__amp">&amp;</span> {{ bas_parts[1] }}</span>
+    {%- else -%}
+      <span class="bas-logo__line">{{ site.title }}</span>
+    {%- endif -%}
+  </span>
+</span>
