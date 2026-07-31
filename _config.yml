@@ -34,6 +34,22 @@ author:
 include:
   - _pages
 
+# Setting this key replaces Jekyll's built-in list rather than adding to it,
+# so the defaults are repeated below the additions.
+exclude:
+  - CLAUDE.md
+  - tools/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
 footer:
   links:
     - label: "Impressum"
