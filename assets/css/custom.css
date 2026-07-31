@@ -338,3 +338,42 @@
   margin-bottom: 0.35em;
 }
 
+/* The landing-page hero: mark + wordmark as the <h1>, tagline below. One
+   clamp for both, so the pair holds its proportion at every width. Re-stated
+   at the theme's specificity — `.page__content h1` / `p` set font-size. */
+.bas-home .page__content {
+  --bas-hero-size: clamp(1.75rem, 7vw, 2.6rem);
+}
+
+.page__content h1.bas-lockup--hero {
+  font-size: var(--bas-hero-size);
+  margin: 0.5rem 0 0.6rem;
+  border-bottom: 0;
+}
+
+.page__content p.bas-hero-tagline {
+  color: var(--bas-muted);
+  font-size: calc(var(--bas-hero-size) * 0.52);
+  line-height: 1.3;
+  font-weight: 400;
+  margin: 0 0 2.5rem;
+}
+
+/* With no sidebar the theme still floats .page into `100% - sidebar width`,
+   leaving a dead gutter. Reclaim it and centre the column instead, capped in
+   em (the theme steps html font-size up to 22px) at ~68 characters.
+   `.bas-home` is set in _layouts/single-skip-h1.html, used only by index.md. */
+@media (min-width: 1024px) {
+  .bas-home .page {
+    float: none;
+    width: 100%;
+    padding-inline-end: 0;
+  }
+
+  .bas-home .page__inner-wrap {
+    float: none;
+    max-width: 34em;
+    margin-inline: auto;
+  }
+}
+

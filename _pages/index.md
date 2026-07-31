@@ -2,17 +2,25 @@
 title: "Bridging AI & Society | Interdisciplinary machine learning education"
 layout: single-skip-h1
 permalink: /
+author_profile: false
+header:
+  image: /assets/img/banner.jpg
+  image_description: ""
+  # The banner carries no text, so it makes a poor share preview. Without this
+  # the theme would prefer it over site.og_image (see seo.html).
+  og_image: /assets/img/og-card.png
 ---
 
-# Bridging AI & Society – Interdisciplinary ML Education
+<h1 class="bas-lockup bas-lockup--hero">
+  {% include bas-mark.html %}
+  <span>{% include bas-wordmark.html %}</span>
+</h1>
+
+<p class="bas-hero-tagline">{{ site.subtitle }}</p>
 
 We are **Dr. Christoph Weisser** and **Dr. Knut Zoch**, two educators with backgrounds in applied statistics and experimental physics. Together, we design and teach interdisciplinary courses and workshops that explore both the **technical foundations** of machine learning and the **societal questions** raised by artificial intelligence.
 
 Our formats are interactive, adaptable, and discussion-driven — ranging from short workshops to multi-day academies.
-
-<p class="text-center">
-  <img src="/assets/img/logo.jpg" alt="Bridging AI and Society Banner" width="500">
-</p>
 
 Learn more about [our curriculum and past editions](/courses/) or [the team behind the project](/about/).
 
