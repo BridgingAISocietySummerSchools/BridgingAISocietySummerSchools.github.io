@@ -16,6 +16,9 @@ minimal_mistakes_skin: "contrast"
 locale: "en-US"
 timezone: "Europe/Zurich"
 
+# Social share card; regenerate with tools/build-brand-assets.py.
+og_image: "/assets/img/og-card.png"
+
 author:
   name: "Bridging AI & Society"
   # Opens with `subtitle` above verbatim; keep the two in step.

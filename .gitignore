@@ -12,6 +12,9 @@
 Gemfile.lock
 **/vendor/bundle
 
+# Python (tools/build-brand-assets.py)
+__pycache__/
+
 # Node.js and NPM
 node_modules
 npm-debug.log*
