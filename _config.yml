@@ -1,6 +1,8 @@
 title: "Bridging AI & Society"
 title_separator: " | "
-subtitle: "Interdisciplinary ML Education"
+# Rendered by the landing-page hero; repeated at the start of author.bio below,
+# which has to be kept in step by hand.
+subtitle: "Interdisciplinary machine learning education"
 copyright: Christoph Weisser, Knut Zoch
 description: "Interdisciplinary machine learning courses by Dr. Christoph Weisser and Dr. Knut Zoch — hands-on workshops on technical foundations and societal impact."
 
@@ -16,7 +18,8 @@ timezone: "Europe/Zurich"
 
 author:
   name: "Bridging AI & Society"
-  bio: "Interdisciplinary Machine Learning Education by Dr. Christoph Weisser and Dr. Knut Zoch"
+  # Opens with `subtitle` above verbatim; keep the two in step.
+  bio: "Interdisciplinary machine learning education by Dr. Christoph Weisser and Dr. Knut Zoch"
   links:
     - label: "About Us"
       icon: "fas fa-fw fa-users"

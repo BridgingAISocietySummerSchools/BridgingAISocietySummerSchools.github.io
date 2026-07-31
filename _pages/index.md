@@ -1,5 +1,5 @@
 ---
-title: "Bridging AI & Society | Interdisciplinary ML Education"
+title: "Bridging AI & Society | Interdisciplinary machine learning education"
 layout: single-skip-h1
 permalink: /
 ---
