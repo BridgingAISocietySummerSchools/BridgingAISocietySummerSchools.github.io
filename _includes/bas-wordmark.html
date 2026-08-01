@@ -1,0 +1,14 @@
+{%- comment -%}
+  The site name on one line, ampersand accented. Derived from site.title by
+  splitting on " & "; falls back to the plain string without an ampersand.
+
+    {% include bas-wordmark.html %}
+    {% include bas-wordmark.html name="Some Other & Name" %}
+{%- endcomment -%}
+{%- assign bas_name = include.name | default: site.title -%}
+{%- assign bas_parts = bas_name | split: " & " -%}
+{%- if bas_parts.size == 2 -%}
+{{ bas_parts[0] }} <span class="bas-lockup__amp">&amp;</span> {{ bas_parts[1] }}
+{%- else -%}
+{{ bas_name }}
+{%- endif -%}

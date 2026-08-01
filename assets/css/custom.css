@@ -92,6 +92,13 @@
   margin-bottom: 1rem;
 }
 
+/* Don't let a long name or title next to the headshot squeeze it: the theme's
+   img { max-width: 100% } would follow the shrunken wrapper while the fixed
+   height stays put, and the circle turns into an oval. */
+.author-card-avatar {
+  flex: none;
+}
+
 .author-card-avatar img {
   width: 140px;
   height: 140px;
@@ -147,6 +154,22 @@
   margin-top: 2rem;
   font-style: italic;
   color: var(--bas-muted);
+}
+
+/* Contact line on the landing page. Set off from the prose by an accent rule
+   rather than a fill, so it reads as an aside without becoming a box. */
+.page__content p.bas-contact {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
+  margin: 1.5rem 0 0;
+  padding-left: 0.9em;
+  border-left: 3px solid var(--bas-accent);
+  font-size: 0.95rem;
+}
+
+.bas-contact a {
+  font-weight: bold;
 }
 
 /* ==========================================================================
@@ -251,3 +274,132 @@
     font-size: 0.9rem;
   }
 }
+
+/* ==========================================================================
+   Brand mark and lockup — the only place the inline mark's colours are set.
+   Sized in em throughout, so a lockup scales from its font-size.
+   ========================================================================== */
+
+.bas-mark {
+  display: block;
+  width: 1em;
+  height: 1em;
+  flex: none;
+}
+
+.bas-mark__bar {
+  fill: var(--bas-heading);
+}
+
+.bas-mark__bar--accent {
+  fill: var(--bas-accent);
+}
+
+.bas-lockup {
+  display: inline-flex;
+  align-items: center;
+  /* The mark is drawn in its padded box here, which already carries ~0.1em of
+     empty ink-to-edge space on its right, so the optical gap runs wider than
+     this number. */
+  gap: 0.4em;
+  color: var(--bas-heading);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.bas-lockup .bas-mark {
+  width: 1.15em;
+  height: 1.15em;
+}
+
+.bas-lockup__amp {
+  color: var(--bas-accent);
+}
+
+/* --------------------------------------------------------------------------
+   The logo (_includes/bas-logo.html): mark beside the name on two fixed lines.
+
+       ◣  Bridging AI
+          & Society
+
+   Fixed typesetting, not a responsive layout — all em, so only font-size
+   differs between the masthead and the profile.
+
+   --bas-logo-lh is the one number to turn: the mark's ink spans the two lines
+   (2 × lh), and its width follows the mark's 1.1547 aspect ratio. Relies on
+   the include's tight crop, where the SVG box is the drawn shape. */
+.bas-logo {
+  --bas-logo-lh: 1.05;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  line-height: var(--bas-logo-lh);
+  letter-spacing: -0.02em;
+  text-align: start;
+}
+
+.bas-logo .bas-mark {
+  height: calc(2em * var(--bas-logo-lh));
+  width: calc(2em * var(--bas-logo-lh) * 1.1547);
+}
+
+.bas-logo__line {
+  display: block;
+  white-space: nowrap;
+}
+
+/* Re-stated at the theme's specificity: `.greedy-nav a` sets display: block. */
+.greedy-nav a.site-title {
+  display: inline-flex;
+  align-items: center;
+}
+
+.author__name .bas-logo--profile {
+  font-size: 1.15em;
+}
+
+.author__name {
+  margin-bottom: 0.35em;
+}
+
+/* The landing-page hero: mark + wordmark as the <h1>, tagline below. One
+   clamp for both, so the pair holds its proportion at every width. Re-stated
+   at the theme's specificity — `.page__content h1` / `p` set font-size. */
+.bas-home .page__content {
+  --bas-hero-size: clamp(1.75rem, 7vw, 2.6rem);
+}
+
+.page__content h1.bas-lockup--hero {
+  font-size: var(--bas-hero-size);
+  margin: 0.5rem 0 0.6rem;
+  border-bottom: 0;
+}
+
+.page__content p.bas-hero-tagline {
+  color: var(--bas-muted);
+  font-size: calc(var(--bas-hero-size) * 0.52);
+  line-height: 1.3;
+  font-weight: 400;
+  margin: 0 0 2.5rem;
+}
+
+/* With no sidebar the theme still floats .page into `100% - sidebar width`,
+   leaving a dead gutter. Reclaim it and centre the column instead, capped in
+   em (the theme steps html font-size up to 22px) at ~68 characters.
+   `.bas-home` is set in _layouts/single-skip-h1.html, used only by index.md. */
+@media (min-width: 1024px) {
+  .bas-home .page {
+    float: none;
+    width: 100%;
+    padding-inline-end: 0;
+  }
+
+  .bas-home .page__inner-wrap {
+    float: none;
+    max-width: 34em;
+    margin-inline: auto;
+  }
+}
+

@@ -1,6 +1,6 @@
 ---
 title: "About Our Team & Mission"
-description: "Learn about the team behind Bridging AI & Society. Dr. Christoph Weisser and Dr. Knut Zoch lead interdisciplinary AI and machine learning education."
+description: "Learn about the team behind Bridging AI & Society. Prof. Dr. Christoph Weisser and Dr. Knut Zoch lead interdisciplinary AI and machine learning education."
 permalink: /about/
 ---
 
@@ -32,63 +32,61 @@ We adapt our courses to different academic settings and goals. Depending on the 
 
 ## Who We Are
 
-<div class="author-grid">
-  <div class="author-card">
-    <div class="author-card-header">
-      <div class="author-card-avatar">
-        <img src="{{ '/assets/img/headshot-christoph.jpg' | relative_url }}" alt="Dr. Christoph Weisser" loading="lazy">
-      </div>
-      <div>
-        <h3>Prof. Dr. Christoph Weisser</h3>
-        <p>Professor of Mathematics, in particular Business Data Science <br>HSBI</p>
-      </div>
+<div class="author-card">
+  <div class="author-card-header">
+    <div class="author-card-avatar">
+      <img src="{{ '/assets/img/headshot-christoph.jpg' | relative_url }}" alt="Prof. Dr. Christoph Weisser" loading="lazy">
     </div>
-
-    <p><strong>Ph.D.</strong> in applied statistics</p>
-    <p><strong>Research:</strong> applied statistics and data science, forecasting, agentic systems</p>
-    <p>Passionate about teaching and business data science</p>
-
-    <div class="author-card-links">
-      <p>
-        <a href="#" class="email-link" data-user="christoph" aria-label="Email Christoph Weisser">
-          <i class="fas fa-envelope" aria-hidden="true"></i><span class="email-text">[email protected]</span>
-        </a>
-      </p>
-      <p>
-        <a href="https://linkedin.com/in/christophweisser" target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-linkedin"></i>Connect on LinkedIn
-        </a>
-      </p>
+    <div>
+      <h3>Prof. Dr. Christoph Weisser</h3>
+      <p>Professor of Mathematics, in particular Business Data Science <br>HSBI</p>
     </div>
   </div>
 
-  <div class="author-card">
-    <div class="author-card-header">
-      <div class="author-card-avatar">
-        <img src="{{ '/assets/img/headshot-knut.jpg' | relative_url }}" alt="Dr. Knut Zoch" loading="lazy">
-      </div>
-      <div>
-        <h3>Dr. Knut Zoch</h3>
-        <p>Physicist<br>Research Fellow<br>CERN</p>
-      </div>
-    </div>
+  <p><strong>Ph.D.</strong> in applied statistics</p>
+  <p><strong>Research:</strong> applied statistics and data science, forecasting, agentic systems</p>
+  <p>Passionate about teaching and business data science</p>
 
-    <p><strong>Ph.D.</strong> in experimental particle physics</p>
-    <p><strong>Research:</strong> big data analytics at CERN, machine learning for science</p>
-    <p>Passionate about teaching and interdisciplinary science</p>
+  <div class="author-card-links">
+    <p>
+      <a href="#" class="email-link" data-user="christoph" aria-label="Email Christoph Weisser">
+        <i class="fas fa-envelope" aria-hidden="true"></i><span class="email-text">[email protected]</span>
+      </a>
+    </p>
+    <p>
+      <a href="https://linkedin.com/in/christophweisser" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i>Connect on LinkedIn
+      </a>
+    </p>
+  </div>
+</div>
 
-    <div class="author-card-links">
-      <p>
-        <a href="#" class="email-link" data-user="knut" aria-label="Email Knut Zoch">
-          <i class="fas fa-envelope" aria-hidden="true"></i><span class="email-text">[email protected]</span>
-        </a>
-      </p>
-      <p>
-        <a href="https://linkedin.com/in/knutzk" target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-linkedin"></i>Connect on LinkedIn
-        </a>
-      </p>
+<div class="author-card">
+  <div class="author-card-header">
+    <div class="author-card-avatar">
+      <img src="{{ '/assets/img/headshot-knut.jpg' | relative_url }}" alt="Dr. Knut Zoch" loading="lazy">
     </div>
+    <div>
+      <h3>Dr. Knut Zoch</h3>
+      <p>Physicist<br>Research Fellow<br>CERN</p>
+    </div>
+  </div>
+
+  <p><strong>Ph.D.</strong> in experimental particle physics</p>
+  <p><strong>Research:</strong> big data analytics at CERN, machine learning for science</p>
+  <p>Passionate about teaching and interdisciplinary science</p>
+
+  <div class="author-card-links">
+    <p>
+      <a href="#" class="email-link" data-user="knut" aria-label="Email Knut Zoch">
+        <i class="fas fa-envelope" aria-hidden="true"></i><span class="email-text">[email protected]</span>
+      </a>
+    </p>
+    <p>
+      <a href="https://linkedin.com/in/knutzk" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i>Connect on LinkedIn
+      </a>
+    </p>
   </div>
 </div>
 

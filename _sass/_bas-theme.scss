@@ -20,6 +20,12 @@ $bas-is-light: lightness($background-color) > 50%;
    a dark background just enough to read as a raised surface. */
 $bas-surface: mix(#fff, $background-color, 8%);
 
+/* The brand red — the one colour not derived from the skin, so the logo holds
+   its hue on both. `lighten()` on dark is an HSL move: same hue, 3.7:1 rather
+   than 2.0:1 on that background. */
+$bas-brand-red: #b60000;
+$bas-accent: if($bas-is-light, $bas-brand-red, lighten($bas-brand-red, 22%));
+
 :root {
   color-scheme: #{if($bas-is-light, light, dark)};
 
@@ -35,8 +41,8 @@ $bas-surface: mix(#fff, $background-color, 8%);
   --bas-muted: #{mix($background-color, $text-color, 30%)};
   --bas-neutral: #{mix($background-color, $text-color, 50%)};
 
-  /* Accents, straight from the theme's semantic palette */
-  --bas-accent: #{$primary-color};
+  /* Accent is pinned (see $bas-brand-red); info is the theme's own. */
+  --bas-accent: #{$bas-accent};
   --bas-info: #{$info-color};
 
   /* Soft "highlight" fill + matching text, using the same mix the theme uses

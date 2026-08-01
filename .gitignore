@@ -12,6 +12,12 @@
 Gemfile.lock
 **/vendor/bundle
 
+# Python (tools/build-brand-assets.py)
+__pycache__/
+
+# 10 MB generator original of the hero banner; kept locally, never served.
+assets/img/banner.png
+
 # Node.js and NPM
 node_modules
 npm-debug.log*

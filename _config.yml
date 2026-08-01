@@ -1,8 +1,10 @@
 title: "Bridging AI & Society"
 title_separator: " | "
-subtitle: "Interdisciplinary ML Education"
+# Rendered by the landing-page hero; repeated at the start of author.bio below,
+# which has to be kept in step by hand.
+subtitle: "Interdisciplinary machine learning education"
 copyright: Christoph Weisser, Knut Zoch
-description: "Interdisciplinary machine learning courses by Dr. Christoph Weisser and Dr. Knut Zoch — hands-on workshops on technical foundations and societal impact."
+description: "Interdisciplinary machine learning courses by Prof. Dr. Christoph Weisser and Dr. Knut Zoch — hands-on workshops on technical foundations and societal impact."
 
 url: "https://bridgingaiandsociety.org"
 repository: "bridgingaiandsociety/bridgingaiandsociety.github.io"
@@ -14,10 +16,13 @@ minimal_mistakes_skin: "contrast"
 locale: "en-US"
 timezone: "Europe/Zurich"
 
+# Social share card; regenerate with tools/build-brand-assets.py.
+og_image: "/assets/img/og-card.png"
+
 author:
   name: "Bridging AI & Society"
-  avatar: "/assets/img/logo.jpg"
-  bio: "Interdisciplinary Machine Learning Education by Dr. Christoph Weisser and Dr. Knut Zoch"
+  # Opens with `subtitle` above verbatim; keep the two in step.
+  bio: "Interdisciplinary machine learning education by Prof. Dr. Christoph Weisser and Dr. Knut Zoch"
   links:
     - label: "About Us"
       icon: "fas fa-fw fa-users"
@@ -28,6 +33,22 @@ author:
 
 include:
   - _pages
+
+# Setting this key replaces Jekyll's built-in list rather than adding to it,
+# so the defaults are repeated below the additions.
+exclude:
+  - CLAUDE.md
+  - tools/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 footer:
   links:
