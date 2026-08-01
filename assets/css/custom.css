@@ -92,6 +92,13 @@
   margin-bottom: 1rem;
 }
 
+/* Don't let a long name or title next to the headshot squeeze it: the theme's
+   img { max-width: 100% } would follow the shrunken wrapper while the fixed
+   height stays put, and the circle turns into an oval. */
+.author-card-avatar {
+  flex: none;
+}
+
 .author-card-avatar img {
   width: 140px;
   height: 140px;
@@ -291,7 +298,10 @@
 .bas-lockup {
   display: inline-flex;
   align-items: center;
-  gap: 0.55em;
+  /* The mark is drawn in its padded box here, which already carries ~0.1em of
+     empty ink-to-edge space on its right, so the optical gap runs wider than
+     this number. */
+  gap: 0.4em;
   color: var(--bas-heading);
   font-weight: 800;
   letter-spacing: -0.03em;
