@@ -8,6 +8,20 @@ search: false
 
 @charset "utf-8";
 
+@import "bas-brand"; // the brand colour — before the skin, so we win its !default
+
+// The dark skin ships $primary-color: #00adb5 and derives its link colour by
+// mixing that toward the body text, which lands on a washed-out #8cd2d5. Both
+// are replaced by the accent so the two themes carry one identity. $text-color
+// and $background-color stay the skin's own — only the accent is ours.
+// $link-color-visited is pinned for the same reason as in main.scss, and the
+// dark skin makes it worse: it darkens rather than lightens, so visited links
+// landed on #5c72a5 — 3.02:1 on the page ground, and visibly duller than the
+// unvisited accent beside it.
+$primary-color: $bas-brand-dark;
+$link-color: $bas-brand-dark;
+$link-color-visited: $bas-brand-dark;
+
 @import "minimal-mistakes/skins/dark"; // skin
 @import "minimal-mistakes"; // main partials
 @import "bas-theme"; // our palette bridge — must come last

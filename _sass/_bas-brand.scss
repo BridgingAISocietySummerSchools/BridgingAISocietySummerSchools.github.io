@@ -1,0 +1,35 @@
+/* The brand colour: LAPIS BLUE.
+
+   Imported by main.scss and dark.scss *before* the skin, so these beat the
+   skin's `!default` declarations.
+
+   The name comes from lapis lazuli, the stone once ground into ultramarine and
+   carried from Afghan mines across the Silk Road to reach the illuminated pages
+   of European manuscripts — a colour that only ever existed somewhere because
+   someone brought it there. That suits a project about carrying ideas across a
+   distance: technical practice into the humanities and back again, a bridge
+   rather than a territory. It reads as studious and calm, the blue of a
+   well-made book rather than of a product.
+
+   It is also chosen to be read easily, on both skins and by as many people as
+   possible. The numbers behind that:
+
+   - One hue (222°) at one saturation (58%), two lightnesses. No single hex
+     clears 4.5:1 on both grounds — white needs relative luminance ≤0.183,
+     the dark skin's #252a34 needs ≥0.278, and those windows are disjoint.
+     So this is one colour placed on two grounds. Measured 5.00:1 and 5.04:1.
+
+   - Blue sits on the blue-yellow axis, which deuteranopia and protanopia leave
+     intact: simulated at severity 1.0 (Machado et al. 2009) it keeps ~102% of
+     its chroma and stays ΔE 97–126 from the theme's success/warning/danger
+     colours. A warm accent does not survive that test — terracotta lands ΔE 9.4
+     from success green and 13.9 from danger red, i.e. it collapses into both.
+
+   If you change the accent, re-run the CVD check, not just the contrast ratios,
+   and rerun tools/build-brand-assets.py. See CLAUDE.md ("Brand colour"). */
+
+$bas-brand-light: #416bcc;
+$bas-brand-dark: #7a98dc;
+
+/* Replaces the contrast skin's pure #000 for text and footer. 16.37:1 on white. */
+$bas-ink: #1c2025;

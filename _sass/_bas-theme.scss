@@ -1,30 +1,21 @@
-/* ==========================================================================
-   Bridging AI & Society — palette bridge
+/* Palette bridge. Imported by BOTH main.scss and dark.scss after the skin, so
+   it compiles once per palette and exports matching --bas-* values. custom.css
+   consumes only those and needs no light/dark branching.
 
-   Imported by BOTH assets/css/main.scss and assets/css/dark.scss, after the
-   skin and the theme partials. Every value below is derived from the *active
-   skin's* Sass variables, so this file is compiled twice — once with the
-   light skin's palette, once with the dark skin's — and each copy exports the
-   matching values. custom.css then consumes the custom properties and needs
-   no light/dark branching of its own.
+   Add colours here as expressions over the skin variables, never as hex in
+   custom.css. */
 
-   Add colours here, never as hex in custom.css.
-   ========================================================================== */
-
-/* True when the active skin is a light one; used for the few values that
-   can't be mixed out of the palette (shadow strength, color-scheme). */
+/* For the few values that can't be mixed out of the palette. */
 $bas-is-light: lightness($background-color) > 50%;
 
-/* Cards sit slightly above the page. Mixing toward white is a no-op on a
-   white background (light skins keep their shadow-only separation) and lifts
-   a dark background just enough to read as a raised surface. */
+/* No-op on white; lifts a dark ground enough to read as a raised surface. */
 $bas-surface: mix(#fff, $background-color, 8%);
 
-/* The brand red — the one colour not derived from the skin, so the logo holds
-   its hue on both. `lighten()` on dark is an HSL move: same hue, 3.7:1 rather
-   than 2.0:1 on that background. */
-$bas-brand-red: #b60000;
-$bas-accent: if($bas-is-light, $bas-brand-red, lighten($bas-brand-red, 22%));
+$bas-accent: if($bas-is-light, $bas-brand-light, $bas-brand-dark);
+
+/* Label for anything filled with the accent. The theme's yiq-contrasted()
+   threshold (175) calls #7a98dc "dark" and puts white on it — 2.86:1. */
+$bas-on-accent: if($bas-is-light, #fff, $background-color);
 
 :root {
   color-scheme: #{if($bas-is-light, light, dark)};
@@ -33,75 +24,95 @@ $bas-accent: if($bas-is-light, $bas-brand-red, lighten($bas-brand-red, 22%));
   --bas-surface: #{$bas-surface};
   --bas-rule: #{$border-color};
 
-  /* Text — mixing text toward the background gives a hierarchy that holds up
-     on light and dark skins alike, which $muted-text-color does not (the dark
-     skin leaves it lighter than its own body text). */
+  /* Text. Mixing toward the background holds up on both skins, which
+     $muted-text-color does not — the dark skin leaves it lighter than body. */
   --bas-heading: #{$text-color};
   --bas-body: #{mix($background-color, $text-color, 15%)};
   --bas-muted: #{mix($background-color, $text-color, 30%)};
   --bas-neutral: #{mix($background-color, $text-color, 50%)};
 
-  /* Accent is pinned (see $bas-brand-red); info is the theme's own. */
   --bas-accent: #{$bas-accent};
+  --bas-on-accent: #{$bas-on-accent};
   --bas-info: #{$info-color};
 
-  /* Soft "highlight" fill + matching text, using the same mix the theme uses
-     for its notice blocks so our badges sit in the same visual family. */
+  /* Soft fills, using the theme's own notice mix so badges match notices. */
   --bas-info-soft: #{mix($background-color, $info-color, $notice-background-mix)};
   --bas-info-soft-text: #{mix($text-color, $info-color, 40%)};
   --bas-neutral-soft: #{mix($text-color, $bas-surface, 8%)};
-  /* Deliberately not --bas-muted: on the neutral fill that only reaches
-     4.2:1 in dark, short of AA for the small bold text it carries. */
+  /* Not --bas-muted: that only reaches 4.2:1 on this fill in dark. */
   --bas-neutral-soft-text: #{mix($text-color, $bas-surface, 75%)};
 
   --bas-shadow: #{rgba(#000, if($bas-is-light, 0.1, 0.45))};
   --bas-shadow-strong: #{rgba(#000, if($bas-is-light, 0.2, 0.6))};
 }
 
-/* ==========================================================================
-   Notice blocks
+/* Notices. Restated at `.page__content` specificity because the contrast skin
+   states its text colour there and would otherwise win over dark.css. Links
+   derive from the accent (so they match body links) mixed toward $text-color,
+   since the flat accent only reaches 3.6–4.2:1 on the tinted fills. */
 
-   Two fixes, both applied at `.page__content` specificity so that whichever
-   of main.css / dark.css is active wins:
+.page__content {
+  .notice,
+  .notice--primary,
+  .notice--info,
+  .notice--warning,
+  .notice--success,
+  .notice--danger {
+    color: $text-color;
 
-   1. The contrast skin raises notice text colour to `.page__content .notice…`,
-      which outranks the dark stylesheet's plain `.notice…` rule — dark mode
-      ended up with black text on a dark tinted background.
-   2. The theme colours notice links `mix(#000, $notice-color, 10%)`, a fixed
-      darkening that is close to unreadable on a dark tinted background.
-      Mixing toward $text-color instead moves the link *away* from the fill in
-      whichever direction the skin needs.
-   ========================================================================== */
+    a {
+      color: mix($text-color, $bas-accent, 40%);
 
-@mixin bas-notice($notice-color) {
-  color: $text-color;
-
-  a {
-    color: mix($text-color, $notice-color, 40%);
-
-    &:hover {
-      color: mix($text-color, $notice-color, 65%);
+      &:hover {
+        color: mix($text-color, $bas-accent, 65%);
+      }
     }
   }
 }
 
+/* Primary buttons. Fill and label restated (see $bas-on-accent); hover moves
+   the fill away from the label, where the theme always darkens — which on a
+   dark skin walks into a dark label. */
+
+.btn--primary {
+  &,
+  &:visited {
+    background-color: $bas-accent;
+    color: $bas-on-accent;
+  }
+
+  &:hover {
+    background-color: if(
+      $bas-is-light,
+      mix(#000, $bas-accent, 20%),
+      mix(#fff, $bas-accent, 20%)
+    );
+    color: $bas-on-accent;
+  }
+}
+
+/* Content links. The theme underlines on hover only, leaving colour as the
+   sole cue — and 3:1 between link and body text is unreachable on the dark
+   skin by any colour. A permanent underline removes the dependency. */
+
 .page__content {
-  .notice {
-    @include bas-notice($light-gray);
+  a:not(.btn) {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.15em;
   }
-  .notice--primary {
-    @include bas-notice($primary-color);
-  }
-  .notice--info {
-    @include bas-notice($info-color);
-  }
-  .notice--warning {
-    @include bas-notice($warning-color);
-  }
-  .notice--success {
-    @include bas-notice($success-color);
-  }
-  .notice--danger {
-    @include bas-notice($danger-color);
+
+  /* Anchor icons and image links: an underline there is noise, not a cue. */
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a,
+  h6 a,
+  .archive__item-title a,
+  figure a,
+  .taxonomy__index a,
+  .page__taxonomy-item {
+    text-decoration: none;
   }
 }

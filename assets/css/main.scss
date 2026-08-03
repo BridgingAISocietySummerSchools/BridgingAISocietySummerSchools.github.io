@@ -7,6 +7,24 @@ search: false
 
 @charset "utf-8";
 
+@import "bas-brand"; // the brand colour — before the skin, so we win its !default
+
+// The contrast skin ships $primary-color: #b60000 and $link-color: #0000ff.
+// Both are stated here first, so one accent drives links, buttons and notices
+// alike rather than sitting as a third colour alongside them. $text-color moves
+// off pure black for the same reason (see _bas-brand.scss); the skin derives
+// $muted-text-color, $border-color and $masthead-link-color from it.
+// $link-color-visited is pinned to the same value on purpose. Left to the
+// theme it becomes mix(#fff, $link-color, 15%) — #5e81d4, which is 3.77:1 on
+// white and so fails AA as body text. It also splits the accent in two: every
+// link the reader has already followed renders in a paler colour, which on a
+// site this size means most internal links and almost no external ones.
+$primary-color: $bas-brand-light;
+$link-color: $bas-brand-light;
+$link-color-visited: $bas-brand-light;
+$text-color: $bas-ink;
+$footer-background-color: $bas-ink;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import "bas-theme"; // our palette bridge — must come last
