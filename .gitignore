@@ -15,8 +15,10 @@ Gemfile.lock
 # Python (tools/build-brand-assets.py)
 __pycache__/
 
-# 10 MB generator original of the hero banner; kept locally, never served.
+# Generator originals of the hero banner, current and superseded; ~8 MB each,
+# kept locally, never served.
 assets/img/banner.png
+assets/img/banner-old.png
 
 # Node.js and NPM
 node_modules
