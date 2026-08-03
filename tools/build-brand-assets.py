@@ -18,12 +18,12 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 FAVICON_DIR = ROOT / "assets" / "favicon"
 IMG_DIR = ROOT / "assets" / "img"
 
-# The light skin's values. Keep in step with the contrast skin and
-# $bas-brand-red in _sass/_bas-theme.scss.
+# The light skin's values. Keep in step with _sass/_bas-brand.scss, which is
+# where the accent and the ink are defined.
 GROUND = "#ffffff"  # $background-color
-INK = "#000000"  # $text-color, i.e. --bas-heading
-ACCENT = "#b60000"  # $bas-brand-red
-MUTED = "#4d4d4d"  # --bas-muted: mix($background-color, $text-color, 30%)
+INK = "#1c2025"  # $bas-ink -> $text-color, i.e. --bas-heading
+ACCENT = "#416bcc"  # $bas-brand-light
+MUTED = "#606366"  # --bas-muted: mix($background-color, $text-color, 30%)
 
 # Two optical cuts of the same drawing; the small one thickens the bars below
 # roughly 28px, where the corner gaps otherwise close.
